@@ -1,38 +1,28 @@
-{{ define "main" }}
-{{ partial "header.html" . }}
-<div class="container">
-    <div class="features-boxed">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">{{ .Type | humanize }} </h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh
-                    erat,
-                    pellentesque ut laoreet vitae.</p>
-            </div>
-            <div class="row justify-content-center features">
-                    {{ range .Pages }}
-                    {{ $images := .Resources.ByType "image" }}
-                    {{ $image := index $images 0 }}
-                    {{ $image := $image.Fill "512x360 smart" }}
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box">
-                        <figure class="snip1527">
-                            <div class="image"><img
-                                    src="{{ $image.RelPermalink }}"
-                                    alt="pr-sample23" /></div>
-                            <figcaption>
-                                <div class="date"><span class="day">{{ .Date.Format "2" }}</span><span class="month">{{ .Date.Format "Jan" }}</span></div>
-                                <h3>{{ .Title }}</h3>
-                                <p style="color: white">
-                                   {{ .Summary }}
-                                </p>
-                            </figcaption>
-                            <a href="{{ .RelPermalink }}"></a>
-                        </figure>
-                    </div>
+{{ define "main" }} {{ partial "header.html" . }}
+<div class="features-boxed">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">{{ .Type | humanize }} </h2>
+            <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+        </div>
+        <div class="row justify-content-center features">
+            {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }} {{ $image := $image.Fill "512x360 smart" }}
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box">
+                    <figure class="snip1527">
+                        <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
+                        <figcaption>
+                            <div class="date"><span class="day">{{ .Date.Format "2" }}</span><span class="month">{{ .Date.Format "Jan" }}</span></div>
+                            <h3>{{ .Title }}</h3>
+                            <p style="color: white">
+                                {{ .Summary }}
+                            </p>
+                        </figcaption>
+                        <a href="{{ .RelPermalink }}"></a>
+                    </figure>
                 </div>
-                {{ end }}
             </div>
+            {{ end }}
         </div>
     </div>
 </div>
