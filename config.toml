@@ -4,6 +4,7 @@ title = "Ngoding Kuy!"
 theme = "ngodingkuy"
 relativeURLs = true
 summaryLength = 10
+tag = "tags"
 
 [menu]
     [[menu.main]]

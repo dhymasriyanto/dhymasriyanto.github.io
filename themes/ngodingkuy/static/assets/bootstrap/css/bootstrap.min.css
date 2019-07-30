@@ -4685,7 +4685,9 @@ input[type=submit].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    /* yang diubah di bootstrap */
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
