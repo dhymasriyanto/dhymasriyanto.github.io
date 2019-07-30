@@ -11,6 +11,11 @@ relativeURLs = true
     url = "/"
 
     [[menu.main]]
+    identifier = "posts"
+    name = "Postingan"
+    url = "/posts/"
+
+    [[menu.main]]
     identifier = "forum"
     name = "Forum"
     url = "/forum/" 
