@@ -1,7 +1,14 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="/assets/css/404.css">
+</head>
 
-<h1>Nothing Here...</h1>
-<h2 style="font-size: 120px; margin:0;">💩</h2>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
+<body>
+    <h1>Nothing Here...</h1>
+    <h2 style="font-size: 120px; margin:0;">💩</h2>
+    <h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
+</body>
 
-{{ end }}
+</html>
