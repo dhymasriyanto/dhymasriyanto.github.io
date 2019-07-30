@@ -11,14 +11,9 @@ relativeURLs = true
     url = "/"
 
     [[menu.main]]
-    identifier = "posts"
+    identifier = "terbaru"
     name = "Postingan"
-    url = "/posts/"
-
-    [[menu.main]]
-    identifier = "forum"
-    name = "Forum"
-    url = "/forum/" 
+    url = "/terbaru/"
 
     [[menu.main]]
     identifier = "tentang"
