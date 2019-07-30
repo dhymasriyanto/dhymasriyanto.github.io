@@ -1,17 +1,29 @@
 {{ define "main" }}
 <div>
-    <div class="header-blue">
+        <div class="header-blue">
+            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+                <div class="container"><a class="navbar-brand" href="#" style="font-family: 'Kaushan Script', cursive;">Ngoding Kuy!</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div
+                        class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="navbar-nav mr-auto">
+                                {{ $currentPage := . }}
+                                {{ range .Site.Menus.main }}
+                                  <li role="presentation" class="nav-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+                                    <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                                  </li>
+                                {{ end }}
+                              </ul>
+                        <form class="form-inline mr-auto" target="_self"></form><span class="navbar-text"> <a class="login" href="#">Masuk</a></span><a class="btn btn-light action-button" role="button" href="#">Daftar</a></div>
+        </div>
+        </nav>
         <div class="container hero">
             <div class="row">
                 <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
                     <h1 style="font-family: 'Source Sans Pro', sans-serif;">Jalan Termudah untuk Memecahkan Masalah</h1>
-                    <p>Website ini hadir untuk membantu menemukan jawaban dari permasalahan para programmer</p><button
-                        class="btn btn-light btn-lg action-button" type="button">Buka Forum</button>
-                </div>
+                    <p>Website ini hadir untuk membantu menemukan jawaban dari permasalahan para programmer</p><button class="btn btn-light btn-lg action-button" type="button">Buka Forum</button></div>
             </div>
         </div>
     </div>
-</div>
 <div class="features-clean" style="padding: 0px 0px 120px;">
     <div class="container">
         <div class="intro">
@@ -47,7 +59,7 @@
             <div class="col-md-6 col-lg-4 item"></div>
             <div class="col-md-6 col-lg-4 item">
                 <div class="box"><img class="rounded-circle"
-                        src="assets/img/48416230_142994350025030_3331784664707760128_n.jpg">
+                        src="/assets/img/48416230_142994350025030_3331784664707760128_n.jpg">
                     <h3 class="name">Dhymas Julyan Riyanto</h3>
                     <p class="title">mahasiswa</p>
                     <p class="description">Hanya seorang mahasiswa yang suka mahasiswi</p>

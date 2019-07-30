@@ -18,5 +18,5 @@ relativeURLs = true
     [[menu.main]]
     identifier = "tentang"
     name = "Tentang"
-    url = "/tentang/"
+    url = "/tentang"
 
