@@ -1,4 +1,7 @@
 {{ define "main" }} {{ partial "header.html" . }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }} {{ $image := $image.Fill "1280x768 smart" }}
+<br>
+<br>
+
 <div class="article-clean">
     <div class="container">
         <div class="card">
@@ -6,10 +9,18 @@
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                     <div class="intro">
                         <h1 class="text-center">{{ .Title }}</h1>
-                        <p class="text-center"><span class="by">by</span> <a href="#">Author Name</a><span class="date">{{ .Date.Format "2 Jan 2006" }} </span></p><img class="img-fluid" src="{{ $image.RelPermalink }}"></div>
+                        <hr>
+                        {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
+                        <p class="text-center"><span class="by">oleh</span> <a href="#">Author Name</a><span class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
+                        {{ end }}
+                        <img class="img-fluid" src="{{ $image.RelPermalink }}"></div>
+
                     <div class="text">
                         {{ .Summary }}
                     </div>
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </div>
         </div>
