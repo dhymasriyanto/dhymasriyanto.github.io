@@ -3,3 +3,20 @@ languageCode = "en-us"
 title = "Ngoding Kuy!"
 theme = "ngodingkuy"
 relativeURLs = true
+
+[menu]
+    [[menu.main]]
+    identifier = "beranda"
+    name = "Beranda"
+    url = "/"
+
+    [[menu.main]]
+    identifier = "forum"
+    name = "Forum"
+    url = "/forum/" 
+
+    [[menu.main]]
+    identifier = "tentang"
+    name = "Tentang"
+    url = "/tentang/"
+
