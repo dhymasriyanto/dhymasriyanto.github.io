@@ -1,30 +1,4 @@
-{{ define "main" }} {{ partial "header.html" . }}
-
-<div class="features-boxed">
-        <br>
-        <br>
-   
-        
-    <div class="container">
-        <div class="row justify-content-center features">
-            {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }} {{ $image := $image.Fill "512x360 smart" }}
-            <div class="col-sm-6 col-md-5 col-lg-4 item">
-                <div class="box">
-                    <figure class="snip1527">
-                        <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
-                        <figcaption>
-                            <div class="date"><span class="day">{{ .Date.Format "2" }}</span><span class="month">{{ .Date.Format "Jan" }}</span></div>
-                            <h5>{{ .Title }}</h5>
-                            <p style="color: white">
-                                {{ .Summary }}
-                            </p>
-                        </figcaption>
-                        <a href="{{ .RelPermalink }}"></a>
-                    </figure>
-                </div>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-</div>
+{{ define "main" }}
+{{ partial "header.html" . }}
+{{partial "post-grid.html" . }}
 {{ end }}

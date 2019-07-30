@@ -9,7 +9,7 @@
                         <h1 class="text-center">{{ .Title }}</h1>
                         <hr>
                         {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
-                        <p class="text-center"><span class="by">oleh</span> <a href="#">Author Name</a><span class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
+                        <p class="text-center"><span class="by">oleh</span> <a href="#">Author</a><span class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
                         {{ end }}
                         <img class="img-fluid" src="{{ $image.RelPermalink }}"></div>
 
