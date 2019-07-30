@@ -11,15 +11,5 @@ body {
    align-items: center;
    justify-content: center;
    text-align: center;
-   background: linear-gradient(135deg, #175e44, #21bec5);
-   color: white;
- }
- 
- a {
-   color: pink;
-   text-decoration: none;
- }
- 
- .content {
-   padding: 0 32px;
+   color: black;
  }
