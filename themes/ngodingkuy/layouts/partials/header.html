@@ -1,8 +1,8 @@
 <header>
-    <div>
+    <div >
         <nav class="navbar navbar-light border navbar-expand-md navigation-clean-button" style="font-family: 'Source Sans Pro', sans-serif;color: #21bec5;">
             <div class="container">
-                <a class="navbar-brand" href="{{ "/" | relURL }}" style="font-family: 'Kaushan Script', cursive;">{{ .Site.Title }}</a>
+                <a class="navbar-brand" href="{{ "/" | relURL }}" style="font-family: 'Kaushan Script', cursive; color: #21bec5; ">{{ .Site.Title }}</a>
                 <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@
                     <ul class="navbar-nav mr-auto">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
-                          <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active{{end}}">
+                          <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active {{end}}">
                             <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
                           </li>
                         {{ end }}

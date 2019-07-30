@@ -1,8 +1,6 @@
 {{ define "main" }} {{ partial "header.html" . }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }} {{ $image := $image.Fill "1280x768 smart" }}
-<br>
-<br>
-
 <div class="article-clean">
+    <br>
     <div class="container">
         <div class="card">
             <div class="row">
@@ -16,7 +14,8 @@
                         <img class="img-fluid" src="{{ $image.RelPermalink }}"></div>
 
                     <div class="text">
-                        {{ .Summary }}
+                           {{ .Content }}
+                          <!-- more -->
                     </div>
                     <br>
                     <br>
@@ -25,6 +24,7 @@
             </div>
         </div>
     </div>
+    <br>
 </div>
 
 {{ end }}

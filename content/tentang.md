@@ -4,16 +4,26 @@ date: 2019-07-30T23:10:26+07:00
 draft: false
 ---
 
-Apa itu _Ngoding Kuy!_ ?
-_Ngoding Kuy!_ merupakan website statis sederhana yang bertujuan untuk memudahkan para mahasiswa teknik informatika khususnya untuk dapat berinteraksi dalam rangka menyelesaikan masalah satu sama lain.
+## Apa itu _Ngoding Kuy!_ ?
 
+_Ngoding Kuy!_ merupakan blog statis sederhana menggunakan [Bootstrap](https://getbootstrap.com/ "Pergi ke website Bootstrap") juga Framework [Hugo]([Bootstrap](https://getbootstrap.com/ "Pergi ke website Hugo").
 
-Awalnya website ini hanya untuk mengarsipkan dokumentasi perkuliahan author. Namun seriring bertambahnya semester, saya merasa ilmu yang ada harus didiskusikan agar satu sama lainnya dapat memecahkan masalah bersama.
+Blog ini bertujuan untuk memudahkan para mahasiswa khususnya jurusan Teknik Informatika untuk dapat berdiskusi bersama dalam rangka menyelesaikan suatu masalah.
 
-Website ini menggunakan [Bootstrap](https://getbootstrap.com/ "Pergi ke website Bootstrap") juga Framework [Hugo]([Bootstrap](https://getbootstrap.com/ "Pergi ke website Hugo"). 
+Awalnya blog ini hanya untuk mengarsipkan dokumen perkuliahan *author*. Namun seriring bertambahnya semester, *author* merasa ilmu yang ada harus didiskusikan agar satu sama lainnya dapat memecahkan masalah bersama.
 
-Website ini masih dalam tahap pengembangan juga, berhubung bahwa author juga sembari belajar.
+Maka dari itu, hadirlah ide untuk menciptakan wadah dimana tiap mahasiswa dapat saling bertanya satu sama lain. Mungkin bisa dikatakan blog ini hampir mirip [Stackoverflow](http://stackoverflow.com/ "Lihat StackOverflow"), namun versi kearifan lokal, mwehehehe :V.
 
-Jadi, jika ada kekurangan ataupun saran mohon hubungi saja kontak yang tertera pada info author. 
+## Kok namanya _Ngoding Kuy!_ ?
+
+Ngga tau juga sebenernya. :V
+
+Awalnya karena sering ngomong *kuy*, jadinya asik juga kalau digabung dengang kata *ngoding*. :V
+
+Blog ini sebenarnya masih dalam tahap pengembangan, berhubung *author* juga sembari belajar sebenernya. :V
+
+Jadi, kalau ada kekurangan, ataupun kalau ada saran hubungi saja kontak *author*. (*author* jomblo sebenernya). 
+
+Semoga blog ini bermanfaat untuk kita semua khususnya *author*. Aamiin...
 
 Terimah kasih! :)
