@@ -1,18 +1,39 @@
 {{ define "main" }}
 {{ partial "header.html" . }}
 <div class="container">
-  <h1 class="text-center">
-    {{ .Type | humanize }}
-  </h1>
-  {{ range .Pages }}
-    <div class="row mt-2">
-      <div class="d-none d-sm-block col-sm-2 mt-auto offset-sm-2 text-right">
-        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-      </div>
-      <div class="col">
-        <a class="text-body" href="{{ .URL | relURL }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
-      </div>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">{{ .Type | humanize }} </h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh
+                    erat,
+                    pellentesque ut laoreet vitae.</p>
+            </div>
+            <div class="row justify-content-center features">
+                    {{ range .Pages }}
+                    {{ $images := .Resources.ByType "image" }}
+                    {{ $image := index $images 0 }}
+                    {{ $image := $image.Fill "512x360 smart" }}
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <figure class="snip1527">
+                            <div class="image"><img
+                                    src="{{ $image.RelPermalink }}"
+                                    alt="pr-sample23" /></div>
+                            <figcaption>
+                                <div class="date"><span class="day">{{ .Date.Format "2" }}</span><span class="month">{{ .Date.Format "Jan" }}</span></div>
+                                <h3>{{ .Title }}</h3>
+                                <p style="color: white">
+                                   {{ .Summary }}
+                                </p>
+                            </figcaption>
+                            <a href="{{ .RelPermalink }}"></a>
+                        </figure>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
-  {{ end }}
 </div>
 {{ end }}
