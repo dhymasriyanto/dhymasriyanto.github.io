@@ -13,6 +13,8 @@ Ini merupakan tulisan pertama _Author_ (yang _Author_ upload). Untuk ke depannya
 
 Blog ini ngga cuma dunia IT aja, kok. Tapi bakalan ada info menarik lainnya yang bakal _Author_ upload, termasuk cerita-cerita pengalaman _Author_. Nanti postingan-postingannya akan di bagi menjadi kategori-kategori tertentu.
 
+_By the way_... Blog ini juga masih dalam tahap pengembangan, jadi mohon kritik dan saran yang membangun demi perkembangan blog ini.
+
 Jadi, tetap nantikan ya postingan-postingan yang akan datang.
 
 Thanks!
