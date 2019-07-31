@@ -4,9 +4,12 @@ date: 2019-08-01T05:44:09+07:00
 draft: false
 categories: ["Tulisan"]
 ---
+```php
+<?php
+    echo "Assalamualaikum!";
 
-## Assalamualaikum...
-
+?>
+```
 Selamat datang di blog [Ngoding Kuy!](http//ngodingkuy.me/)!
 
 Ini merupakan tulisan pertama _Author_ (yang _Author_ upload). Untuk ke depannya, mohon bantuannya ya! Semoga _Author_ rajin untuk upload terus informasi-informasi menarik ataupun ilmu-ilmu yang _Author_ ketahui. 
@@ -19,4 +22,9 @@ Jadi, tetap nantikan ya postingan-postingan yang akan datang.
 
 Thanks!
 
-## Wassalam...
+```php
+<?php
+    echo "Wassalam!";
+
+?>
+```
