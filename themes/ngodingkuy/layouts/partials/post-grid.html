@@ -14,14 +14,18 @@
         {{end}}
         <hr>
     </div>
+
+    <!-- {{partial "test.html" . }} -->
+
     <div class="container">
-        {{ $recentposts := 1 }}
+        {{ $recentposts := 2 }}
         {{ if .Params.recentposts }}
         {{ $recentposts = .Params.recentposts }}
         {{ end }}
 
         {{ if eq $var .Title }}
         {{ range first $recentposts (where .Pages "Type" "posts" ) }}
+
         <div class="row justify-content-center features">
             {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
@@ -33,9 +37,14 @@
                     <figure class="snip1527">
                         {{if $images}}
                         <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
+                        {{else}}
+                        <div class="image"><img
+                                src="https://placeholder.pics/svg/300x160/DEDEDE/555555/Tidak%20Ada%20Gambar"
+                                alt="pr-sample23" /></div>
+
                         {{end}}
                         <figcaption>
-                            {{if $images}}
+                            {{if or ($images) (not (eq $var .Title))}}
 
                             <div class="date">
                                 <span class="day">{{ .Date.Format "2" }}</span>
@@ -55,9 +64,10 @@
         </div>
         {{ end }}
         {{else}}
-        
+
         <div class="row justify-content-center features">
-            {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
+
+            {{ range (.Paginator 9).Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
             {{ $var := "Tentang" }}
             {{ if not (eq $var .Title) }}
@@ -67,9 +77,14 @@
                     <figure class="snip1527">
                         {{if $images}}
                         <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
+                        {{else}}
+                        <div class="image"><img
+                                src="https://placeholder.pics/svg/300x160/DEDEDE/555555/Tidak%20Ada%20Gambar"
+                                alt="pr-sample23" /></div>
+
                         {{end}}
                         <figcaption>
-                            {{if $images}}
+                            {{if or ($images) (not (eq $var .Title))}}
 
                             <div class="date">
                                 <span class="day">{{ .Date.Format "2" }}</span>
