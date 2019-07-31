@@ -19,7 +19,6 @@ tag = "tags"
     url = "/posts/"
     weight = 110
 
-
     [[menu.main]]
     identifier = "tentang"
     name = "Tentang"
