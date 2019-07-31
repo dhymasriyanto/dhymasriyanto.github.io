@@ -1,9 +1,18 @@
-
 <div class="features-boxed">
- 
+    <div class="intro">
+        <br>
+        <br>
+        {{ $var := "Ngoding Kuy!" }} {{ if not (eq $var .Title) }}
+        <h2 class="text-center">Semua Posting</h2>
+        {{else}}
+        <h2 class="text-center">Postingan Terkini</h2>
+        {{end}}
+        <hr>
+    </div>
     <div class="container">
         <div class="row justify-content-center features">
-            {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }} {{ $image := $image.Fill "512x360 smart" }}
+            {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
+            {{ $image := $image.Fill "512x360 smart" }}
             {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
 
             <div class="col-sm-6 col-md-5 col-lg-4 item">
@@ -15,7 +24,8 @@
                         {{else}}
                         {{end}}
                         <figcaption>
-                            <div class="date"><span class="day">{{ .Date.Format "2" }}</span><span class="month">{{ .Date.Format "Jan" }}</span></div>
+                            <div class="date"><span class="day">{{ .Date.Format "2" }}</span><span
+                                    class="month">{{ .Date.Format "Jan" }}</span></div>
                             <h5>{{ .Title }}</h5>
                             <p style="color: white">
                                 {{ .Summary }}
