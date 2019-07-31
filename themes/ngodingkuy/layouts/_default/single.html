@@ -17,6 +17,10 @@
                            {{ .Content }}
                           <!-- more -->
                     </div>
+
+                    <br>
+                    <br>
+                    <hr>
                     {{ if not (eq $var .Title) }}
                     {{partial "disqus.html" . }}
                     {{end}}
