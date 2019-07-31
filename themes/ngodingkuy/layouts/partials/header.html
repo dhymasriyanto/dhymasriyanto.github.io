@@ -21,9 +21,10 @@
                               {{ .Name }}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item border-bottom" href="{{ .URL | relURL }}">Semua</a>
                               {{ range $name, $taxonomy := $currentPage.Site.Taxonomies.tags }}
                                 {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-                                  <a class="dropdown-item" href="{{ .URL | relURL }}">{{ $name }}</a>
+                                  <a class="dropdown-item" href="{{ .URL | relURL }}">{{ $name | humanize }}</a>
                                 {{ end }}
                               {{ end }}
                             </div>

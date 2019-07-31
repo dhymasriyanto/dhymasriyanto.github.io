@@ -10,9 +10,25 @@
                         <ul class="navbar-nav ml-auto">
                                 {{ $currentPage := . }}
                                 {{ range .Site.Menus.main }}
-                                  <li role="presentation" class="nav-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+                                {{if not (eq .Identifier "tags")}}
+                                  <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active {{end}}">
                                     <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
                                   </li>
+                                {{else}}
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="{{ .URL | relURL }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      {{ .Name }}
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item border-bottom" href="{{ .URL | relURL }}">Semua</a>
+                                      {{ range $name, $taxonomy := $currentPage.Site.Taxonomies.tags }}
+                                        {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                                          <a class="dropdown-item" href="{{ .URL | relURL }}">{{ $name | humanize }}</a>
+                                        {{ end }}
+                                      {{ end }}
+                                    </div>
+                                  </li> 
+                                {{end}}
                                 {{ end }}
                               </ul>
                         <!-- <form class="form-inline mr-auto" target="_self"></form><span class="navbar-text"> <a class="login" href="#">Masuk</a></span><a class="btn btn-light action-button" role="button" href="#">Daftar</a></div> -->
