@@ -2,6 +2,7 @@
 title: "Mengenal Bahasa Pemrograman JAVA"
 date: 2019-07-31T09:53:26+07:00
 draft: false
+tags: ["Mengenal", "JAVA"]
 ---
 
 ## Apa sih itu pemrograman?

@@ -11,14 +11,25 @@ tag = "tags"
     identifier = "beranda"
     name = "Beranda"
     url = "/"
+    weight = 100
 
     [[menu.main]]
-    identifier = "terbaru"
+    identifier = "posts"
     name = "Postingan"
-    url = "/terbaru/"
+    url = "/posts/"
+    weight = 110
+
 
     [[menu.main]]
     identifier = "tentang"
     name = "Tentang"
-    url = "/tentang"
+    url = "/tentang/"
+    weight = 130
 
+    [[menu.main]]
+    identifier = "tags"
+    name = "Kategori"
+    url = "/tags/"
+    weight = 120
+
+    

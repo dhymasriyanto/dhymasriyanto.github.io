@@ -2,10 +2,15 @@
     <div class="intro">
         <br>
         <br>
-        {{ $var := "Ngoding Kuy!" }} {{ if not (eq $var .Title) }}
+        {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Tags"}} {{$var3 := "Posts"}} {{ if eq $var .Title }}
+        <h2 class="text-center">Postingan Terkini</h2>
+
+        {{else if eq $var2 .Title}}
+        <h2 class="text-center">Semua Kategori</h2>
+        {{else if eq $var3 .Title}}
         <h2 class="text-center">Semua Posting</h2>
         {{else}}
-        <h2 class="text-center">Postingan Terkini</h2>
+        <h2 class="text-center">Kategori : {{.Title}}</h2>
         {{end}}
         <hr>
     </div>
@@ -19,13 +24,16 @@
                 <div class="box">
                     <figure class="snip1527">
                         {{if $images}}
-
                         <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
-                        {{else}}
                         {{end}}
                         <figcaption>
-                            <div class="date"><span class="day">{{ .Date.Format "2" }}</span><span
-                                    class="month">{{ .Date.Format "January" }}</span></div>
+                                {{if $images}}
+
+                            <div class="date">
+                                <span class="day">{{ .Date.Format "2" }}</span>
+                                <span class="month">{{ .Date.Format "January" }}</span>
+                            </div>
+                            {{end}}
                             <h5>{{ .Title }}</h5>
                             <p style="color: white">
                                 {{ .Summary }}
