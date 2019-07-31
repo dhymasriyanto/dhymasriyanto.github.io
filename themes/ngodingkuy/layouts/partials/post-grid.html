@@ -2,7 +2,8 @@
     <div class="intro">
         <br>
         <br>
-        {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Categories"}} {{$var3 := "Posts"}} {{ if eq $var .Title }}
+        {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Categories"}} {{ $v := "categories"}} {{$var3 := "Posts"}}
+        {{ if eq $var .Title }}
         <h2 class="text-center">Posting Terkini</h2>
 
         {{else if eq $var2 .Title}}
@@ -30,7 +31,7 @@
             {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
             {{ $var := "Tentang" }}
-            {{ if not (eq $var .Title) }}
+            {{ if and (not (eq $var .Title)) (not (eq $var2 .Title))  }}
 
             <div class="col-sm-6 col-md-5 col-lg-4 item">
                 <div class="box">
@@ -41,11 +42,9 @@
                         <div class="image"><img
                                 src="https://placeholder.pics/svg/300x160/DEDEDE/555555/Tidak%20Ada%20Gambar"
                                 alt="pr-sample23" /></div>
-
                         {{end}}
                         <figcaption>
                             {{if or ($images) (not (eq $var .Title))}}
-
                             <div class="date">
                                 <span class="day">{{ .Date.Format "2" }}</span>
                                 <span class="month">{{ .Date.Format "January" }}</span>
@@ -78,18 +77,26 @@
                         {{if $images}}
                         <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
                         {{else}}
+
+                        {{if eq $v .Section}}
+
+                        {{else}}
                         <div class="image"><img
                                 src="https://placeholder.pics/svg/300x160/DEDEDE/555555/Tidak%20Ada%20Gambar"
                                 alt="pr-sample23" /></div>
 
                         {{end}}
+                        {{end}}
                         <figcaption>
                             {{if or ($images) (not (eq $var .Title))}}
+                            {{if eq $v .Section}}
 
+                            {{else}}
                             <div class="date">
                                 <span class="day">{{ .Date.Format "2" }}</span>
                                 <span class="month">{{ .Date.Format "January" }}</span>
                             </div>
+                            {{end}}
                             {{end}}
                             <h5>{{ .Title }}</h5>
                             <p style="color: white">

@@ -1,6 +1,6 @@
 <nav aria-label="Navigasi Halaman">
     {{ $pag := $.Paginator }}
-    {{ if gt $pag.TotalPages 0 }}
+    {{ if gt $pag.TotalPages 1 }}
     <ul class="pagination  justify-content-center" >
         {{ with $pag.First }}
         <li class="page-item">
