@@ -7,7 +7,6 @@ categories: ["Tulisan"]
 ```php
 <?php
     echo "Assalamualaikum!";
-
 ?>
 ```
 Selamat datang di blog [Ngoding Kuy!](http//ngodingkuy.me/)!
@@ -25,6 +24,5 @@ Thanks!
 ```php
 <?php
     echo "Wassalam!";
-
 ?>
 ```
