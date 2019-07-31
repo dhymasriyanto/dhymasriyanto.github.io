@@ -18,7 +18,7 @@ Awalnya karena sering ngomong *kuy*, jadinya asik juga kalau digabung dengang ka
 
 Blog ini sebenarnya masih dalam tahap pengembangan, berhubung *author* juga sembari belajar sebenernya. :V
 
-Jadi, kalau ada kekurangan, ataupun kalau ada saran hubungi saja kontak *author*. (*author* jomblo sebenernya). 
+Jadi, kalau ada kekurangan, ataupun kalau ada saran hubungi saja kontak *author*. (*Author* jomblo sebenernya). 
 
 Semoga blog ini bermanfaat untuk kita semua khususnya *author*. Aamiin...
 

@@ -67,7 +67,7 @@
 
         <div class="row justify-content-center features">
 
-            {{ range (.Paginator 9).Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
+            {{ range (.Paginator 6).Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
             {{ $var := "Tentang" }}
             {{ if not (eq $var .Title) }}
