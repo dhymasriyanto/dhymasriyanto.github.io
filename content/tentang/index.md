@@ -4,6 +4,10 @@ date: 2019-07-30T23:10:26+07:00
 draft: false
 ---
 
+{{< figure src="/img/tentang/icon.png" class="img-fluid" >}}
+
+
+
 ## Apa itu [_Ngoding Kuy!_](http://ngodingkuy.me) ?
 
  [_Ngoding Kuy!_](http://ngodingkuy.me) merupakan blog statis sederhana yang menggunakan library [Bootstrap](https://getbootstrap.com/ "Pergi ke website Bootstrap") dan juga framework [Hugo](https://gohugo.io/ "Pergi ke website Hugo").

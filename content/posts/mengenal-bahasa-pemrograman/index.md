@@ -25,7 +25,4 @@ Sedangkan bahasa pemrograman itu merupakan alat komunikasi yang digunakan oleh m
 
 Nah, kebetulan, ada banyak sekali jenis bahasa pemrograman yang ada di kalangan _programmer_ dan _developer_. Tapi, kali ini _author_ bakalan membahas 7 bahasa pemrograman populer di kalangan _programmer_.
 
-
-
-
-![Grafik TIOBE Minggu Ini](/img/mengenal-bahasa-pemrograman/graphic-this-week.jpg)
+{{< figure src="/img/mengenal-bahasa-pemrograman/graphic-this-week.jpg" class="img-fluid" >}}
