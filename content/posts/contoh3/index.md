@@ -1,7 +1,7 @@
 ---
 title: "Contoh3"
 date: 2019-08-01T03:52:42+07:00
-draft: false
+draft: true
 ---
 
 test
