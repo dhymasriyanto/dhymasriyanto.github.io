@@ -14,9 +14,7 @@ Kalian pasti sudah tidak asing lagi dengan kalimat yang satu ini:
   Tapi apa kalian sudah tau apa makna sebenernya dari _Lorem Ipsum_ itu?
 
 ## Apa sih Lorem Ipsum itu?
-
-_Lorem Ipsum_ ini sebenarnya adalah teks _dummy_ untuk percetakan dan industri pengaturan tulisan. _Lorem Ipsum_ telah menjadi standar industri teks _dummy_ sejak tahun 1500-an, ketika printer yang tidak diketahui mengambil
-    
+  
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 Why do we use it?

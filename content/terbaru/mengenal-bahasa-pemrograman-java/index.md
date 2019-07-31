@@ -13,3 +13,5 @@ Sebelum kita beranjak lebih jauh, kita harus memahami terlebih dahulu apa yang d
 Tujuan dari pemrograman ini sendiri ialah menciptakan suatu program aplikasi yang berguna, sehingga dapat dipergunakan oleh masyarakat luas. Dan masih banyak lagi tujuan dari belajar bahasa pemrograman.
 
 ## Terus, JAVA itu apa??
+
+Nah, kalau JAVA itu ialah salah sebuah bahasa dari pemrogramanan yang mana diciptakan oleh James Gosling pada tahun 1990-an.
