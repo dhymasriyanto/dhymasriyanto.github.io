@@ -12,7 +12,7 @@ Blog ini bertujuan untuk memudahkan para mahasiswa khususnya jurusan Teknik Info
 
 Awalnya blog ini hanya untuk mengarsipkan dokumen perkuliahan *author*. Namun seriring bertambahnya semester, *author* merasa ilmu yang ada harus didiskusikan agar satu sama lainnya dapat memecahkan masalah bersama.
 
-Maka dari itu, hadirlah ide untuk menciptakan wadah dimana tiap mahasiswa dapat saling bertanya satu sama lain. Mungkin bisa dikatakan blog ini hampir mirip [Stackoverflow](http://stackoverflow.com/ "Lihat StackOverflow"), namun versi kearifan lokal, mwehehehe :V.
+Maka dari itu, hadirlah ide untuk menciptakan wadah dimana tiap mahasiswa dapat saling bertanya satu sama lain. Mungkin bisa dikatakan blog ini hampir mirip [StackOverflow](http://stackoverflow.com/ "Lihat StackOverflow"), namun versi kearifan lokal, mwehehehe :V.
 
 ## Kok namanya _Ngoding Kuy!_ ?
 

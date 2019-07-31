@@ -4,6 +4,8 @@
     <div class="container">
         <div class="row justify-content-center features">
             {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }} {{ $image := $image.Fill "512x360 smart" }}
+            {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
+
             <div class="col-sm-6 col-md-5 col-lg-4 item">
                 <div class="box">
                     <figure class="snip1527">
@@ -23,6 +25,7 @@
                     </figure>
                 </div>
             </div>
+            {{end}}
             {{ end }}
         </div>
     </div>
