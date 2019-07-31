@@ -6,7 +6,7 @@ draft: false
 
 ## Apa itu [_Ngoding Kuy!_](http://ngodingkuy.me) ?
 
- [_Ngoding Kuy!_](http://ngodingkuy.me) merupakan blog statis sederhana menggunakan [Bootstrap](https://getbootstrap.com/ "Pergi ke website Bootstrap") juga Framework [Hugo]([Bootstrap](https://getbootstrap.com/ "Pergi ke website Hugo").
+ [_Ngoding Kuy!_](http://ngodingkuy.me) merupakan blog statis sederhana menggunakan [Bootstrap](https://getbootstrap.com/ "Pergi ke website Bootstrap") juga Framework [Hugo](https://gohugo.io/ "Pergi ke website Hugo").
 
 Blog ini bertujuan untuk memudahkan para mahasiswa khususnya jurusan Teknik Informatika untuk dapat berdiskusi bersama dalam rangka menyelesaikan suatu masalah.
 
