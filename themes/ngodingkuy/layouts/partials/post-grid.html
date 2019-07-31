@@ -26,14 +26,14 @@
 
         {{ if eq $var .Title }}
         {{ range first $recentposts (where .Pages "Type" "posts" ) }}
-
         <div class="row justify-content-center features">
+
             {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
             {{ $var := "Tentang" }}
             {{ if and (not (eq $var .Title)) (not (eq $var2 .Title))  }}
 
-            <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div class="h-100 row align-items-center item" style="transform: scale(1.5)">
                 <div class="box">
                     <figure class="snip1527">
                         {{if $images}}
@@ -71,7 +71,7 @@
             {{ $var := "Tentang" }}
             {{ if not (eq $var .Title) }}
 
-            <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div class="h-100 row align-items-center item">
                 <div class="box">
                     <figure class="snip1527">
                         {{if $images}}
