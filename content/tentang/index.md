@@ -14,7 +14,7 @@ Awalnya blog ini hanya untuk mengarsipkan dokumen perkuliahan *author*. Namun mu
 
 ## Kok namanya  [_Ngoding Kuy!_](http://ngodingkuy.me) ?
 
-Ngga tau juga sih sebenernya. facebook emoticons pacman
+Ngga tau juga sih sebenernya. :v
 
 Awalnya karena sering ngomong *kuy*, jadinya asik juga kalau digabung dengang kata *ngoding*. :v
 
