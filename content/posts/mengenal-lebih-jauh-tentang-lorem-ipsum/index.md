@@ -1,7 +1,7 @@
 ---
 title: "Mengenal Lebih Jauh Tentang Lorem Ipsum"
 date: 2019-07-30T23:10:26+07:00
-draft: true
+draft: false
 tags: ["Mengenal", "Lorem Ipsum"]
 categories: ["Umum"]
 ---

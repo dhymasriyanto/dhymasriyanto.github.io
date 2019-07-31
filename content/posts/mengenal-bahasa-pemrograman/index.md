@@ -1,7 +1,7 @@
 ---
 title: "Mengenal Bahasa Pemrograman"
 date: 2019-07-31T09:53:26+07:00
-draft: true
+draft: false
 tags: ["Mengenal", "Programming"]
 categories: ["Programming"]
 
