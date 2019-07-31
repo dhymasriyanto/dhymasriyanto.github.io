@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {{ partial "head.html" . }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/themes/static/assets/css/404.css">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -10,7 +27,7 @@
     <br>
     <h2 style="font-size: 120px; margin:0;">🙈🙉🙊</h2>
     <br>
-    <h3><a class="btn btn-light action-button"  href="{{ "/" | relURL }}">Kembali</a></h3>
+    <h3><a class="btn btn-light action-button" href="{{ "/" | relURL }}">Kembali</a></h3>
 </body>
 
 </html>
