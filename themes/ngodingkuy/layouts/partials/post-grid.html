@@ -2,7 +2,7 @@
     <div class="intro">
         <br>
         <br>
-        {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Tags"}} {{$var3 := "Posts"}} {{ if eq $var .Title }}
+        {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Categories"}} {{$var3 := "Posts"}} {{ if eq $var .Title }}
         <h2 class="text-center">Posting Terkini</h2>
 
         {{else if eq $var2 .Title}}
@@ -15,10 +15,18 @@
         <hr>
     </div>
     <div class="container">
+        {{ $recentposts := 1 }}
+        {{ if .Params.recentposts }}
+        {{ $recentposts = .Params.recentposts }}
+        {{ end }}
+
+        {{ if eq $var .Title }}
+        {{ range first $recentposts (where .Pages "Type" "posts" ) }}
         <div class="row justify-content-center features">
-            {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
+            {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
-            {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
+            {{ $var := "Tentang" }}
+            {{ if not (eq $var .Title) }}
 
             <div class="col-sm-6 col-md-5 col-lg-4 item">
                 <div class="box">
@@ -27,7 +35,40 @@
                         <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
                         {{end}}
                         <figcaption>
-                                {{if $images}}
+                            {{if $images}}
+
+                            <div class="date">
+                                <span class="day">{{ .Date.Format "2" }}</span>
+                                <span class="month">{{ .Date.Format "January" }}</span>
+                            </div>
+                            {{end}}
+                            <h5>{{ .Title }}</h5>
+                            <p style="color: white">
+                                {{ .Summary }}
+                            </p>
+                        </figcaption>
+                        <a href="{{ .RelPermalink }}"></a>
+                    </figure>
+                </div>
+            </div>
+            {{end}}
+        </div>
+        {{ end }}
+        {{else}}
+        <div class="row justify-content-center features">
+            {{ range .Pages }} {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
+            {{ $image := $image.Fill "512x360 smart" }}
+            {{ $var := "Tentang" }}
+            {{ if not (eq $var .Title) }}
+
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box">
+                    <figure class="snip1527">
+                        {{if $images}}
+                        <div class="image"><img src="{{ $image.RelPermalink }}" alt="pr-sample23" /></div>
+                        {{end}}
+                        <figcaption>
+                            {{if $images}}
 
                             <div class="date">
                                 <span class="day">{{ .Date.Format "2" }}</span>
@@ -46,5 +87,7 @@
             {{end}}
             {{ end }}
         </div>
+        {{end}}
+
     </div>
 </div>

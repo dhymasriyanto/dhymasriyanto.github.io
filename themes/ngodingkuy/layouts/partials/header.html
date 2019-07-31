@@ -1,5 +1,5 @@
 <header>
-    <div class="sticky-top">
+    <div >
         <nav class="navbar navbar-light border navbar-expand-md navigation-clean-button"    >
             <div class="container">
                 <a class="navbar-brand" href="{{ "/" | relURL }}" style="font-family: 'Kaushan Script', cursive; color: #21bec5; ">{{ .Site.Title }}</a>
@@ -11,7 +11,7 @@
                     <ul class="navbar-nav ml-auto">
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
-                        {{if not (eq .Identifier "tags")}}
+                        {{if not (eq .Identifier "categories")}}
                           <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active {{end}}">
                             <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
                           </li>
@@ -22,8 +22,8 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item border-bottom" href="{{ .URL | relURL }}">Semua</a>
-                              {{ range $name, $taxonomy := $currentPage.Site.Taxonomies.tags }}
-                                {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                              {{ range $name, $taxonomy := $currentPage.Site.Taxonomies.categories }}
+                                {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
                                   <a class="dropdown-item" href="{{ .URL | relURL }}">{{ $name | humanize }}</a>
                                 {{ end }}
                               {{ end }}
