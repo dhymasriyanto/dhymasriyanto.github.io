@@ -2,6 +2,7 @@
 title: "Cara Menginstall JDK Dan Menampilkan Hello World"
 date: 2019-08-01T10:35:21+07:00
 draft: false
+categories: ["JAVA"]
 ---
 
 **JDK** atau JAVA Development Kit adalah salah satu dari tiga paket inti yang dibutuhkan pada bahasa JAVA. Dua lainnya ialah **JVM** (JAVA Virtual Machine) dan **JRE** (JAVA Runtime Environment).
