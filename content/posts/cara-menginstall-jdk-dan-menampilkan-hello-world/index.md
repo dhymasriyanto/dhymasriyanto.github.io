@@ -159,3 +159,5 @@ Kemudian buka lagi _Command Prompt_ dan coba ketikkan kembali ``javac``, jika be
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/success.png" class="img-fluid" >}}
 
 # <center>Membuat Hello World  Pada JAVA</center>
+
+Untuk membuat Hello World pada JAVA, kita akan melakukan _compile_ dengan menggunakan _syntax_ ``javac`` tadi.
