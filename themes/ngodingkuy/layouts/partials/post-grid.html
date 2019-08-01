@@ -5,15 +5,21 @@
         {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Categories"}} {{ $v := "categories"}} {{$var3 := "Posts"}}
         {{ if eq $var .Title }}
         <h2 class="text-center">Posting Terkini</h2>
-
+        <hr>
+<br><br>        
         {{else if eq $var2 .Title}}
         <h2 class="text-center">Semua Kategori</h2>
+        <hr>
+        
         {{else if eq $var3 .Title}}
         <h2 class="text-center">Semua Posting</h2>
+        <hr>
+       
         {{else}}
         <h2 class="text-center">Kategori : {{.Title}}</h2>
-        {{end}}
         <hr>
+       
+        {{end}}
     </div>
 
     <!-- {{partial "test.html" . }} -->
