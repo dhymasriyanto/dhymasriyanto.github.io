@@ -85,6 +85,77 @@ Nais!! Kita sudah berhasil meng-_install_ JDK pada Windows.
 
  PATH itu ialah istilah yang digunakan untuk menunjukkan alamat suatu file.
 
- Sebenarnya, JAVA sudah berhasil terinstall pada OS kita, tapi tidak secara otomatis ter-_setting_ PATH-nya. Untuk mengetahui hal tersebut tekan _Windows_ + R untuk membuka kotak dialog "Run" seperti berikut :
+ Sebenarnya, JAVA sudah berhasil terinstall pada OS kita, tapi tidak secara otomatis ter-_setting_ PATH-nya. Untuk mengetahui hal tersebut tekan ``Windows + R`` untuk membuka kotak dialog "Run" seperti berikut :
 
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/run.png" class="img-fluid" >}}
+
+Lalu ketik ``cmd`` dan tekan Enter. Maka program _Command Prompt_ akan terbuka seperti ini :
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/cmd.png" class="img-fluid" >}}
+
+Lalu ketik ``javac`` pada _Command Prompt_ dan tekan Enter.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/javac.png" class="img-fluid" >}}
+
+Hal diatas terjadi karena kita belum mengatur PATH pada _environment variable_. Untuk melakukan hal tersebut, kita harus pergi ke _system properties_.
+
+Sebelum ke _system properties_ kita harus dapatkan terlebih dahulu alamat yang ingin kita tuju. Alamat ini  merupakan alamat menuju ke dalam folder JDK yang telah kita _install_.
+
+Buka _File Explorer_. Lalu pergi ke Local Disk (C:) dan masuk ke folder _Program Files_.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/c.png" class="img-fluid" >}}
+
+Pada folder _Program Files_ masuk lagi ke dalam folder _Java_.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/files.png" class="img-fluid" >}}
+
+Di dalam folder _Java_ inilah JDK terinstall. Setelah itu masuklah ke dalam folder *jdk1.8.0_221*.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/java.png" class="img-fluid" >}}
+
+Masuk ke dalam folder _bin_
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/jdk8.png" class="img-fluid" >}}
+
+Di dalam folder _bin_ tersebut, klik pada _address bar_ lalu _copy_ alamat tersebut.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/bin.png" class="img-fluid" >}}
+
+
+Untuk ke _system properties_, kita cukup lakukan hal yang hampir sama dengan sebelumnya.
+
+Tekan ``Windows + R`` pada _keyboard_ lalu ketikkan ``sysdm.cpl`` dan tekan _Enter_.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/sysdm.png" class="img-fluid" >}}
+
+Lalu silahkan pilih tab _Advanced_.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/system-properties.png" class="img-fluid" >}}
+
+Lalu pilih _Environment Variables_.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/advanced.png" class="img-fluid" >}}
+
+Pilih PATH seperti pada gambar dibawah:
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/environment.png" class="img-fluid" >}}
+
+Pilih _New_.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/edit.png" class="img-fluid" >}}
+
+Kemudian _paste_ alamat yang telah kita _copy_ tadi.\
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/new.png" class="img-fluid" >}}
+
+Setelah itu klik _OK_ di semua menu sampai anda keluar.
+
+Naaahhh... Akhirnya kita telah berhasil mengatur agar JDK terdapat di dalam PATH.
+
+Tapi, untuk membuktikan hal itu, mari kita coba di _Command Prompt_. Oh iya, kita harus _close_ dulu _Command Prompt_ sebelumnya, agar reload data baru.
+
+Kemudian buka lagi _Command Prompt_ dan coba ketikkan kembali ``javac``, jika berhasil maka tampilannya akan seperti ini :
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/success.png" class="img-fluid" >}}
+
+# <center>Membuat Hello World  Pada JAVA</center>
