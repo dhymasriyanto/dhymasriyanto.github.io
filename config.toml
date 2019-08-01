@@ -2,9 +2,14 @@ baseURL = "http://ngodingkuy.me/"
 languageCode = "en-us"
 title = "Ngoding Kuy!"
 
+MetaDataFormat = "yaml"
+
+googleAnalytics = "UA-144994408-1" 
+
 description = "Jalan Termudah untuk Memecahkan Masalah"
 
 theme = "ngodingkuy"
+
 relativeURLs = true
 summaryLength = 5
 tag = "tags"

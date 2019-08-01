@@ -8,7 +8,7 @@ categories: ["JAVA"]
 **JDK** atau JAVA Development Kit adalah salah satu dari tiga paket inti yang dibutuhkan pada bahasa JAVA. Dua lainnya ialah **JVM** (JAVA Virtual Machine) dan **JRE** (JAVA Runtime Environment).
 Berikut perbedaan ketiganya:
 
-- **JVM** adalah komponen dari platform JAVA yang berfungsi untuk mengeksekusi program-program.
+- **JVM** adalah komponen dari platform JAVA yang berfungsi untuk mengeksekusi program-program
 
 - **JRE** adalah bagian JAVA yang membuat **JVM**
 
@@ -79,4 +79,12 @@ Nais!! Kita sudah berhasil meng-_install_ JDK pada Windows.
 
 ## Lah, terus sekarang ngapain?
 
- Langkah selanjutnya ialah, menyetting _PATH_ pada Windows.
+ Langkah selanjutnya, kita harus menyetting PATH untuk Environment Variable pada Windows.
+
+## Apa itu PATH?
+
+ PATH itu ialah istilah yang digunakan untuk menunjukkan alamat suatu file.
+
+ Sebenarnya, JAVA sudah berhasil terinstall pada OS kita, tapi tidak secara otomatis ter-_setting_ PATH-nya. Untuk mengetahui hal tersebut tekan _Windows_ + R untuk membuka kotak dialog "Run" seperti berikut :
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/run.png" class="img-fluid" >}}
