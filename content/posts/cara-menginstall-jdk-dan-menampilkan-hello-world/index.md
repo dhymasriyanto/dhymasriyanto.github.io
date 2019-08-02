@@ -5,7 +5,7 @@ draft: false
 categories: ["JAVA"]
 ---
 
-**JDK** atau JAVA Development Kit adalah salah satu dari tiga paket inti yang dibutuhkan pada bahasa JAVA. Dua lainnya ialah **JVM** (JAVA Virtual Machine) dan **JRE** (JAVA Runtime Environment).
+**JDK** atau JAVA _Development Kit_ adalah salah satu dari tiga paket inti yang dibutuhkan pada bahasa JAVA. Dua lainnya ialah **JVM** (JAVA _Virtual Machine_) dan **JRE** (JAVA _Runtime Environment_).
 Berikut perbedaan ketiganya:
 
 - **JVM** adalah komponen dari platform JAVA yang berfungsi untuk mengeksekusi program-program
@@ -14,12 +14,13 @@ Berikut perbedaan ketiganya:
 
 - **JDK** membolehkan _developer_ untuk membuat program JAVA, sehingga dapat di eksekusi oleh **JVM** dan **JRE**
 
-Bagi yang baru memulai mempelajari JAVA pasti masih bingung dengan pembagian-pembagian dan istilah-istilah tersebut. Pervedaan mendasarnya ialah, **JDK** adalah _package_ untuk men-_develop_ program berbasis JAVA, yang mana membutuhkan JRE sebagai _package_ untuk menjalankan kode JAVA tersebut.
+Bagi yang baru memulai mempelajari JAVA pasti masih bingung dengan pembagian-pembagian dan istilah-istilah tersebut. Perbedaan mendasarnya ialah, **JDK** adalah _package_ untuk men-_develop_ program berbasis JAVA, yang mana membutuhkan JRE sebagai _package_ untuk menjalankan kode JAVA tersebut.
 
 Berikut bagan bagaimana peranan **JDK**  pada JAVA:
 
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/jdk-01.png" class="img-fluid" >}}
 
+----------
 
 # <center>Menginstall JDK</center>
 
@@ -79,7 +80,7 @@ Nais!! Kita sudah berhasil meng-_install_ JDK pada Windows.
 
 ## Lah, terus sekarang ngapain?
 
- Langkah selanjutnya, kita harus menyetting PATH untuk Environment Variable pada Windows.
+ Langkah selanjutnya, kita harus menyetting PATH untuk _Environment Variable_ pada Windows.
 
 ## Apa itu PATH?
 
@@ -136,19 +137,34 @@ Lalu pilih _Environment Variables_.
 
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/advanced.png" class="img-fluid" >}}
 
-Pilih PATH seperti pada gambar dibawah:
+Pilih PATH seperti pada gambar dibawah, lalu pilih _Edit_ untuk mengedit isi PATH.
 
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/environment.png" class="img-fluid" >}}
 
-Pilih _New_.
+Di sini silahkan pilih _New_ untuk membuat PATH baru.
 
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/edit.png" class="img-fluid" >}}
 
-Kemudian _paste_ alamat yang telah kita _copy_ tadi.\
+
+Kemudian _paste_ alamat yang telah kita _copy_ tadi.
 
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/new.png" class="img-fluid" >}}
 
 Setelah itu klik _OK_ di semua menu sampai anda keluar.
+
+Diatas merupakan cara mengatur PATH pada _Windows_ 10. Untuk _Windows_ 7 caranya sama, hanya berbeda pada saat masuk menu _Edit_ PATH.
+
+Setelah anda masuk ke dalam _Edit_ PATH, maka tampilannya akan seperti ini :
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/path-windows-7.png" class="img-fluid" >}}
+
+Jika sudah, sama seperti pada sebelumnya, kita harus _paste_ alamat yang telah kita _copy_.
+
+Namun yang harus diperhatikan ialah sebelum kita _copy_, kita harus memberikan _separator_ untuk PATH baru. _Separator_ tersebut ialah tanda titik koma (';').
+
+Untuk itu, letakkan titik koma (';') di ujung tulisan pada _field Edit_ PATH tersebut. Lalu silahkan _paste_ alamat yang telah tersimpan, lalu tekan OK di semua _dialog box_.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/path-separate.png" class="img-fluid" >}}
 
 Naaahhh... Akhirnya kita telah berhasil mengatur agar JDK terdapat di dalam PATH.
 
@@ -158,6 +174,100 @@ Kemudian buka lagi _Command Prompt_ dan coba ketikkan kembali ``javac``, jika be
 
 {{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/success.png" class="img-fluid" >}}
 
+Selanjutnya untuk memastikan bahwa versi JDK sudah sesuai, yakni JDK versi 8, maka ketikkan perintah ``javac -version``.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/java-version.png" class="img-fluid" >}}
+
+Selamat, kita telah berhasil mengatur PATH pada OS kita.
+
+----------
+
+
 # <center>Membuat Hello World  Pada JAVA</center>
 
-Untuk membuat Hello World pada JAVA, kita akan melakukan _compile_ dengan menggunakan _syntax_ ``javac`` tadi.
+Akhirnya, setelah PATH untuk JDK kita telah selesai diatur, mari kita coba untuk melakukan _compile_ pada bahasa pemrograman JAVA. Seperti yang _Author_ katakan sebelumnya, bahwa JDK berfungsi untuk meng-_compile_ kode JAVA kita.
+
+Kita akan melakukan _compile_ dengan menggunakan perintah ``javac`` tadi.
+
+Pertama buka editor favorit kalian, bisa [Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html), [Atom](https://atom.io), [Visual Studio Code](https://code.visualstudio.com/) atau bahkan Notepad biasa (yang ini untuk **PRO** :v). Disini _Author_ menggunakan Visual Studio Code.
+
+Setelah dibuka, silahkan ketikkan _syntax_ berikut :
+
+```java
+public class HelloWorld{
+    public static void main (String [] args){
+        System.out.println("Hello World!");
+    }
+}
+```
+
+Kemudian simpan dengan nama file "HelloWorld.java" pada direktori yang anda inginkan. Pada kali ini _Author_ menyimpan file "HelloWorld.java" tersebut pada  direktori ``C:\User\Gamers\Documents``.
+
+Nah, sekarang kita akan menampilkan hal tersebut pada _Command Prompt_.
+
+Pertama buka _Command Prompt_ terlebih dahulu.
+
+Perlu diketahui, bahwa secara _default_, _Command Prompt_ akan mengarahkan kita ke direktori ``C:\User\namauser``. Nah, disini kita perlu untuk mengubah direktori tersebut. Untuk melakukan hal itu, kita akan menggunakan salah satu perintah pada _Command Prompt_,  yaitu ``cd`` yang merupakan perintah untuk menuju ke direktori tertentu.
+
+Jika kita ketikkan command ``help`` pada _Command Prompt_, maka akan tampil penjelasan semua perintah di _Command Prompt_, namun untuk saat ini yang perlu kita ketahui hanya perintah ``cd`` saja.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/help.png" class="img-fluid" >}}
+
+Ada beberapa hal yang harus diketahui pada perintah ``cd`` ini. Yakni :
+
+
+- Jika kita ingin pergi ke _Disk_ selain _Local Disk (C:)_, maka cukup ketikkan nama _Disk_-nya. Seperti jika kita ingin ke _Disk_ D:, maka ketikkan ``D:``.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/d.png" class="img-fluid" >}}
+
+- Jika kita ketik : ``cd /``. maka akan mengarahkan kita ke direktori inti pada _Disk_ tersebut.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/root.png" class="img-fluid" >}}
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/root2.png" class="img-fluid" >}}
+
+- Jika kita ketik : ``cd ..``, maka akan mengarahkan kita ke direktori sebelumnya.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/back.png" class="img-fluid" >}}
+
+- Jika kita ketik : ``cd namadirektori``, maka akan mengarahkan kita ke direktori yang kita inginkan (tetapi direktori harus ada).
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/go-to.png" class="img-fluid" >}}
+
+- Kita bisa menulis langsung direktori lengkap dengan mengetik : ``cd nama/direktori/yang/dituju``.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/langsung.png" class="img-fluid" >}}
+
+- Jika kita ketik : ``cd``, maka _Command Prompt_ akan menampilkan direktori kita saat ini.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/cd.png" class="img-fluid" >}}
+
+Oke, karena sudah tau cara penggunaan perintah ``cd`` ini, maka langsung saja kita coba untuk melakukan _compile_ pada file "HelloWorld.java" kita tadi.
+
+Karena _Author_ menyimpan file-nya di ``C:\User\GAMERS\Documents``, maka langsung saja kita arahkan _Command Prompt_ kita kesana.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/docu.png" class="img-fluid" >}}
+
+Jika kita sudah pada direktori yang sesuai, mari kita lakukan _compile_ pada file "HelloWorld.java" kita dengan menggunakan perintah ``javac``.
+
+Untuk melakukannya kita ketikkan : ``javac HelloWorld.java``.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/compile.png" class="img-fluid" >}}
+
+Jika berhasil, dia tidak akan menampilkan apa-apa. Jika tidak berhasil, itu dikarenakan ada _error_ pada kode kita. Misalnya seperti ini :
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/error.png" class="img-fluid" >}}
+
+Jangan khawatir! Kita hanya perlu memperbaiki _error_ nya. Lagipula, semakin sering _error_, semakin pusing juga kita. Eh, maksudnya kita akan semakin paham dan mengerti dengan kode kita. :v
+
+Selanjutnya, mari kita tampilkan kode kita pada _Command Prompt_ dengan menggunakan perintah ``java``. 
+
+Untuk melakukannya kita ketikkan : ``java HelloWorld``.
+
+{{< figure src="/img/cara-menginstall-jdk-dan-menampilkan-hello-world/hello.png" class="img-fluid" >}}
+
+Selamat!! Akhirnya anda berhasil menjadi _hekel_!! :v (bercanda)
+
+Mungkin sekian saja postingan untuk kali ini. Maaf kalo kepanjangan. Semoga dapat dipahami, dan silahkan bertanya ataupun memberikan saran.
+
+Terima kasih!! :)
