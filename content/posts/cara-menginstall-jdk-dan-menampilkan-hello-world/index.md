@@ -12,7 +12,7 @@ Berikut perbedaan ketiganya:
 
 - **JRE** adalah bagian JAVA yang membuat **JVM**
 
-- **JDK** membolehkan _developer_ untuk membuat program JAVA, sehingga dapat di eksekusi oleh **JVM** dan **JRE**
+- **JDK** membolehkan _developer_ untuk meng-_compile_ program JAVA, sehingga dapat di eksekusi oleh **JVM** dan **JRE**
 
 Bagi yang baru memulai mempelajari JAVA pasti masih bingung dengan pembagian-pembagian dan istilah-istilah tersebut. Perbedaan mendasarnya ialah, **JDK** adalah _package_ untuk men-_develop_ program berbasis JAVA, yang mana membutuhkan JRE sebagai _package_ untuk menjalankan kode JAVA tersebut.
 
