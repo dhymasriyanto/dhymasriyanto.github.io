@@ -16,7 +16,7 @@ Awalnya blog ini hanya untuk mengarsipkan dokumen perkuliahan *author*. Namun mu
 
 Ngga tau juga sih sebenernya. :v
 
-Awalnya karena sering ngomong *kuy*, jadinya asik juga kalau digabung dengang kata *ngoding*. :v
+Awalnya karena sering ngomong *kuy*, jadinya asik juga kalau digabung dengan kata *ngoding*. :v
 
 Blog ini sebenarnya masih dalam tahap pengembangan, berhubung *author* juga sembari belajar sebenernya. :v
 
