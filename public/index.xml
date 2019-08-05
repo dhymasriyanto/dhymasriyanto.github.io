@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ngoding Kuy!</title>
-    <link>http://example.org/</link>
+    <link>http://ngodingkuy.me/</link>
     <description>Recent content on Ngoding Kuy!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jul 2019 09:53:26 +0700</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ngodingkuy.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mengenal Bahasa Pemrograman JAVA</title>
-      <link>http://example.org/terbaru/mengenal-bahasa-pemrograman-java/</link>
+      <link>http://ngodingkuy.me/terbaru/mengenal-bahasa-pemrograman-java/</link>
       <pubDate>Wed, 31 Jul 2019 09:53:26 +0700</pubDate>
       
-      <guid>http://example.org/terbaru/mengenal-bahasa-pemrograman-java/</guid>
+      <guid>http://ngodingkuy.me/terbaru/mengenal-bahasa-pemrograman-java/</guid>
       <description>Apa sih itu pemrograman? Sebelum kita beranjak lebih jauh, kita harus memahami terlebih dahulu apa yang dimaksud dengan pemrograman itu sendiri.</description>
     </item>
     
     <item>
       <title>Mengenal Lebih Jauh Tentang Lorem Ipsum</title>
-      <link>http://example.org/terbaru/mengenal-lebih-jauh-tentang-lorem-ipsum/</link>
+      <link>http://ngodingkuy.me/terbaru/mengenal-lebih-jauh-tentang-lorem-ipsum/</link>
       <pubDate>Tue, 30 Jul 2019 23:10:26 +0700</pubDate>
       
-      <guid>http://example.org/terbaru/mengenal-lebih-jauh-tentang-lorem-ipsum/</guid>
+      <guid>http://ngodingkuy.me/terbaru/mengenal-lebih-jauh-tentang-lorem-ipsum/</guid>
       <description>Kalian pasti sudah tidak asing lagi dengan kalimat yang satu ini:</description>
     </item>
     
     <item>
       <title>Tentang</title>
-      <link>http://example.org/tentang/</link>
+      <link>http://ngodingkuy.me/tentang/</link>
       <pubDate>Tue, 30 Jul 2019 23:10:26 +0700</pubDate>
       
-      <guid>http://example.org/tentang/</guid>
+      <guid>http://ngodingkuy.me/tentang/</guid>
       <description>Apa itu Ngoding Kuy! ? Ngoding Kuy! merupakan blog statis sederhana menggunakan Bootstrap juga Framework Hugo.</description>
     </item>
     
