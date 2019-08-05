@@ -2,7 +2,7 @@
     <div class="intro">
         <br>
         <br>
-        {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Categories"}} {{ $v := "categories"}} {{$var3 := "Posts"}}
+        {{ $var := "Ngoding Kuy!"}} {{ $var2 := "Categories"}} {{ $v := "categories"}} {{$var3 := "Posts"}} {{$var4 := "Posts"}} 
         {{ if eq $var .Title }}
         <h2 class="text-center">Posting Terkini</h2>
         <hr>
@@ -15,10 +15,12 @@
         <h2 class="text-center">Semua Posting</h2>
         <hr>
        
-        {{else}}
+        {{else if eq $v .Section}}
         <h2 class="text-center">Kategori : {{.Title}}</h2>
         <hr>
-       
+       {{else}}
+       <h2 class="text-center">Tag : {{.Title}}</h2>
+        <hr>
         {{end}}
     </div>
 

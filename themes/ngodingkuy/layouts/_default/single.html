@@ -9,16 +9,28 @@
                         <h1 class="text-center">{{ .Title }}</h1>
                         <hr>
                         {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
-                        <p class="text-center"><span class="by">oleh</span> <a href="#">Author</a><span class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
+                        <p class="text-center"><span class="by">oleh</span> <a href="{{.Site.Author.homepage}}">{{.Site.Author.name}}</a><span class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
                         {{ end }}
+                        
                         <img class="img-fluid" src="{{ $image.RelPermalink }}"></div>
 
                     <div class="text">
                            {{ .Content }}
                           <!-- more -->
+                          <br>
+                          <hr>
+                          <center>
+                            <div>
+                                {{ range .Params.tags }}
+                                <span class="badge badge-secondary">
+                                     #<a class="text-white" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                                </span> 
+                                {{ end }}
+                            </div>
+                        </center>
                     </div>
-                    <br>
                     <hr>
+                    <br>
                     {{ if not (eq $var .Title) }}
                     {{partial "disqus.html" . }}
                     {{end}}

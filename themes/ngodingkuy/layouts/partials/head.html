@@ -1,12 +1,11 @@
 <title>{{ .Title}}</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
 {{ template "_internal/schema.html" . }}
 {{ template "_internal/google_news.html" . }}
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
-{{ template "_internal/google_analytics_async.html" . }}
 
 <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
@@ -33,3 +32,4 @@
 
 <!-- Taru kode Google Analytic di sini, karena menurut aturan harus di dalam Head -->
 {{ template "_internal/google_analytics.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
