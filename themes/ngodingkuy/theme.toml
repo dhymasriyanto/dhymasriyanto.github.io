@@ -3,16 +3,16 @@
 
 name = "Ngodingkuy"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
-features = []
-min_version = "0.41"
+licenselink = ""
+description = "Jalan Termudah untuk Memecahkan Masalah"
+homepage = "http://ngodingkuy.me/"
+tags = ["blog", "programming"]
+features = ["materialize"]
+min_version = "0.1"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Dhymas Julyan Riyanto"
+  homepage = "https://ngodingkuy.me/"
 
 # If porting an existing theme
 [original]
