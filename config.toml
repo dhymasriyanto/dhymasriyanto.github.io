@@ -23,7 +23,6 @@ disqusShortname = "ngodingkuy"
     bio = "My Mother always tells me to smile and put on happy face"
     image = "https://avatars0.githubusercontent.com/u/32106219?s=460&v=4"
 
-
 [menu]
     [[menu.main]]
     identifier = "beranda"
