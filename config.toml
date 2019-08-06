@@ -1,13 +1,12 @@
 title = "Ngoding Kuy!"
+
 baseURL = "http://ngodingkuy.me/"
 
-languageCode = "en-us"
+languageCode = "id"
 
 MetaDataFormat = "yaml"
 
 googleAnalytics = "UA-144994408-1" 
-
-description = "Jalan Termudah untuk Memecahkan Masalah"
 
 theme = "ngodingkuy"
 
@@ -15,6 +14,8 @@ relativeURLs = true
 
 summaryLength = 5
 
+[params]
+    Description = "Blog untuk para pencari solusi"
 
 [taxonomies]
     tag = "tags"
