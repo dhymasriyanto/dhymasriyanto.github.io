@@ -14,7 +14,7 @@ collections:
   - name: "posts"
     label: Post
     # slug: "{{slug}}" 
-    folder: "/content/posts"
+    folder: "/content/posts/{{slug}}"
     media_folder: "{{slug}}/index"
     create: true
     # media_folder: "/content/posts"
