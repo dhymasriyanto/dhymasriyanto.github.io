@@ -4,18 +4,18 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "static/img" # Folder where user uploaded files should go
-public_folder: "img"
+media_folder: "static/img/" # Folder where user uploaded files should go
+public_folder: "img./"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
-    folder: "content/posts/{{slug}}" # The path to the folder where the documents are stored
+    folder: "content/posts/{{slug}}/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "index.md" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      # - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
