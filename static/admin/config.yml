@@ -14,7 +14,8 @@ collections:
   - name: posts # Used in routes, e.g., /admin/collections/blog
     label: Post # Used in the UI
     # folder: "content/posts"
-    folder: content/posts/{{fields.title}}
+    path: content/posts/
+    folder: {{fields.title}}
     create: true # Allow users to create new documents in this collection
     slug: index
     # preview_path: "docs/{{title}}"
