@@ -19,6 +19,7 @@ collections:
     - name: posts
       label: Posts
       file: content/posts/{{title}}/index.md
+      create: true # Allow users to create new documents in this collection
 
     # preview_path: "docs/{{title}}"
     # slug: index # Filename template, e.g., YYYY-MM-DD-title.md
