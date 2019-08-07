@@ -13,7 +13,7 @@ media_folder: "/content/posts/{{slug}}" # Folder where user uploaded files shoul
 collections:
   - name: "posts"
     label: Post
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" 
+    # slug: "{{slug}}" 
     folder: "/content/posts"
     media_folder: "{{slug}}/index"
     create: true
