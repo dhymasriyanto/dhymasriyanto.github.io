@@ -1,9 +1,9 @@
 backend:
   name: github
   repo: dhymasriyanto/dhymasriyanto.github.io
-  branch: master # Branch to update (optional; defaults to master)
-  auth_endpoint: /oauth/auth
+  # branch: master # Branch to update (optional; defaults to master)
   base_url: "https://www.ngodingkuy.me"
+  auth_endpoint: /oauth/auth
 
 # publish_mode: editorial_workflow
 
