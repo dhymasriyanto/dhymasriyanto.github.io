@@ -16,6 +16,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" 
     folder: "/content/posts/{{slug}}"
     media_folder: "/content/posts/{{slug}}"
+    create: true
     # media_folder: "/content/posts"
     fields: # The fields for each document, usually in front matter
       - { name: category, label: category, widget: "select", options: ["JVM", "JavaScript", "Devops", "Company"] }
