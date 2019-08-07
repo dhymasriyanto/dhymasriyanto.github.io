@@ -10,15 +10,11 @@ site_url: "https://www.ngodingkuy.me"
 media_folder: "/content/posts/{{slug}}" # Folder where user uploaded files should go
 # public_folder: "img/"
 
-
-
 collections:
-  - name: posts # Used in routes, e.g., /admin/collections/blog
-    label: Post # Used in the UI
-    path: content/posts/{{slug}}/index.md
-    create: true # Allow users to create new documents in this collection
-    folder: "/content/posts"
-    slug: "index" 
+  - name: "posts"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" 
+    folder: "/content/posts/{{slug}}"
+    media_folder: "/content/posts/{{slug}}"
     # media_folder: "/content/posts"
     fields: # The fields for each document, usually in front matter
       - { name: category, label: category, widget: "select", options: ["JVM", "JavaScript", "Devops", "Company"] }
