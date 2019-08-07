@@ -17,9 +17,9 @@ collections:
     label: Post # Used in the UI
     path: content/posts/{{slug}}/index.md
     create: true # Allow users to create new documents in this collection
-    folder: "/"
+    folder: "/content/posts"
     slug: "index" 
-    media_folder: "/content/posts"
+    # media_folder: "/content/posts"
     fields: # The fields for each document, usually in front matter
       - { name: category, label: category, widget: "select", options: ["JVM", "JavaScript", "Devops", "Company"] }
       - { name: date, label: Date, widget: date }
