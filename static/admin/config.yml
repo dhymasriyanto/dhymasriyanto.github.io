@@ -12,10 +12,10 @@ media_folder: "/content/posts/{{slug}}" # Folder where user uploaded files shoul
 
 collections:
   - name: "posts"
-    label: Post
+    label: "Post"
     # slug: "{{slug}}" 
-    folder: "/content/posts/{{slug}}"
-    media_folder: "{{slug}}/index"
+    folder: "content/posts/"
+    slug: "{{slug}}/index.md"
     create: true
     # media_folder: "/content/posts"
     fields: # The fields for each document, usually in front matter
