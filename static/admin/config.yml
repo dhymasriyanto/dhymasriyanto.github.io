@@ -11,11 +11,11 @@ media_folder: "static/img/" # Folder where user uploaded files should go
 public_folder: "img/"
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
-    folder: content/posts/{{slug}} # The path to the folder where the documents are stored
+  - name: posts # Used in routes, e.g., /admin/collections/blog
+    label: Post # Used in the UI
+    folder: "content/posts/{{slug}}"
     create: true # Allow users to create new documents in this collection
-    extension: markdown
+    extension: md
     format: frontmatter
     # preview_path: "docs/{{title}}"
     # slug: index # Filename template, e.g., YYYY-MM-DD-title.md
