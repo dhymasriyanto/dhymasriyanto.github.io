@@ -4,8 +4,8 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "static/img/{{slug}}" # Folder where user uploaded files should go
-public_folder: "img/{{slug}}"
+media_folder: "static/img" # Folder where user uploaded files should go
+public_folder: "img"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
