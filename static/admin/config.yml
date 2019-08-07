@@ -14,8 +14,8 @@ collections:
   - name: "posts"
     label: Post
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" 
-    folder: "/content/posts/{{slug}}"
-    media_folder: "/content/posts/{{slug}}"
+    folder: "/content/posts"
+    media_folder: "{{slug}}/index"
     create: true
     # media_folder: "/content/posts"
     fields: # The fields for each document, usually in front matter
