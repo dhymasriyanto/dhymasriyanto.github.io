@@ -8,7 +8,7 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections:
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "content/posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
