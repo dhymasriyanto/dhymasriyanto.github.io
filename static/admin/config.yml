@@ -13,8 +13,8 @@ public_folder: "img/"
 collections:
   - name: posts # Used in routes, e.g., /admin/collections/blog
     label: Post # Used in the UI
-    folder: "content/posts"
-    path: content/posts/{{slug}}/index.md
+    # folder: "content/posts"
+    path: 'content/posts/{{title}}'
     create: true # Allow users to create new documents in this collection
     extension: md
     format: frontmatter
