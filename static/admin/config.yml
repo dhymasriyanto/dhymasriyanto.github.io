@@ -14,7 +14,7 @@ collections:
   - name: posts # Used in routes, e.g., /admin/collections/blog
     label: Post # Used in the UI
     # folder: "content/posts"
-    folder: 'content/posts/{{title}}'
+    folder: 'content/posts/{{fields.title}}'
     create: true # Allow users to create new documents in this collection
     extension: md
     format: frontmatter
