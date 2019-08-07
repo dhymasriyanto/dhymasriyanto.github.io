@@ -14,7 +14,7 @@ collections:
   - name: posts # Used in routes, e.g., /admin/collections/blog
     label: Post # Used in the UI
     # folder: "content/posts"
-    folder: 'content/posts/{{fields.title}}'
+    folder: 'content/posts/{{fields.slug}}'
     create: true # Allow users to create new documents in this collection
     extension: md
     format: frontmatter
@@ -26,4 +26,5 @@ collections:
       - { name: category, label: category, widget: "select", options: ["JVM", "JavaScript", "Devops", "Company"] }
       - { name: date, label: Date, widget: date }
       - { name: title, label: title }
+      - {name: slug, label: Slug}
       - { name: "body", label: "Blog post content", widget: "markdown"}
