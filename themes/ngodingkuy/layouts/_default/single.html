@@ -13,8 +13,11 @@
                         <h1 class="text-center">{{ .Title }}</h1>
                         <hr>
                         {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
-                        <p class="text-center"><span class="by">oleh</span> <a
-                                href="{{.Site.Author.homepage}}">{{.Site.Author.name}}</a><span
+                        <p class="text-center"><span class="by">oleh</span>
+<!--                            <a href="{{.Site.Author.homepage}}">-->
+                                {{.Params.author}}
+<!--                            </a>-->
+                            <span
                                 class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
                         {{ end }}
 
