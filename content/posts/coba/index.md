@@ -6,3 +6,5 @@ title: Coba
 image: 75333928_151650789439663_1082819983422395645_n.jpg
 ---
 ![](bokura-wa-minna-kawais002-614x4331-3.jpg)
+
+![](7b7e942b7c8a785991d70da041682dea.jpg)
