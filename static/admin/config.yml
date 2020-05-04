@@ -7,7 +7,7 @@ site_url: "https://www.ngodingkuy.me"
 
 # publish_mode: editorial_workflow
 
-media_folder: "content/posts/" # Folder where user uploaded files should go
+media_folder: "content/posts/{{slug}}/" # Folder where user uploaded files should go
 # public_folder: "img/"
 
 collections:
@@ -23,4 +23,5 @@ collections:
       - { name: category, label: category, widget: "select", options: ["Test", "JavaScript", "Devops", "Company"] }
       - { name: date, label: Date, widget: date }
       - { name: title, label: title }
+      - { name: "image", label: "Cover image", widget: "image"}
       - { name: "body", label: "Blog post content", widget: "markdown"}
