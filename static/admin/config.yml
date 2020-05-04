@@ -13,7 +13,8 @@ media_folder: "content/posts/" # Folder where user uploaded files should go
 collections:
   - name: "posts"
     label: "Post"
-    folder: "content/posts/{{title}}"
+    folder: "content/posts/"
+    path: '{{slug}}/index'
     create: true
     extension: md
     format: frontmatter
