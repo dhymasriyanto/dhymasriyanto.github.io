@@ -13,8 +13,8 @@ media_folder: "content/posts/{{slug}}" # Folder where user uploaded files should
 collections:
   - name: "posts"
     label: "Post"
-    folder: "/content/posts"
-    slug: "/{{title}}/{{title}}"
+    folder: "content/posts"
+    slug: "/{[slug}}"
     create: true
     fields: # The fields for each document, usually in front matter
       - { name: category, label: category, widget: "select", options: ["Test", "JavaScript", "Devops", "Company"] }
