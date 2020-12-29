@@ -8,4 +8,4 @@ image: /img/js.jpg
 JavaScript adalah sebuah bahasa pemrograman yang berguna untuk 
 ![](<>)
 
-![](/img/einstein.jpg)
+![]()
