@@ -14,9 +14,9 @@
                         <hr>
                         {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
                         <p class="text-center"><span class="by">oleh</span>
-<!--                            <a href="{{.Site.Author.homepage}}">-->
-                                {{.Params.author}}
-<!--                            </a>-->
+                           <a href="{{.Site.Author.homepage}}">
+                                {{.Site.Author.name}}
+                           </a>
                             <span
                                 class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
                         {{ end }}
