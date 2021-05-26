@@ -18,7 +18,7 @@ Maaf kan saya, mungkin penanganan _website_ ini kurang maksimal... Dan terlebih 
 
 Sekali lagi saya mohon maaf, dikarenakan beberapa kesibukan, membuat saya benar-benar lupa untuk ngisi waktu luang dengan menulis di _blog_ ini... Wkwk...
 
-Ya, di pertengahan awal bulan tahun 2021 ini, _Author_ memutuskan untuk mencoba rajin nulis di _blog_ ini. 
+Ya, di pertengahan tahun 2021 ini, _Author_ memutuskan untuk mencoba rajin nulis di _blog_ ini. 
 
 Kali ini, saya bakalan nulis apapun yang pengen ditulis... Tapi mungkin jangan terlalu berharap juga sama saya. Wkwk...
 
