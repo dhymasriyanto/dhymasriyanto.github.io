@@ -12,7 +12,7 @@ Nah, setelah kita berhasil menginstall NodeJS berdasarkan postingan sebelumnya, 
 
 ## Node REPL
 
-**Apa itu REPL?**
+*Apa itu REPL?*
 
 REPL merupakan singkatan dari _Read, Evaluate, Print, Loop_.
 
@@ -78,7 +78,7 @@ Keren juga sih REPL, tapi kalo make itu, kalian mungkin ga bisa _build_ aplikasi
 
 Nah cara yang pada umumnya dilakukan ialah kita menulis program kita pada file, dan meminta NodeJS untuk mengeksekusi nya.
 
-**Bikin file index.js**
+*Bikin file index.js*
 
 Pertama, coba kalian bikin file `index.js`. Dalam file itu coba kalian ketik _syntax_ sederhana dari JavaScript. Semisal `console.log('Hallo Dunia')`.
 
