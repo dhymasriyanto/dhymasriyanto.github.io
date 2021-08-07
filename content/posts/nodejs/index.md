@@ -2,7 +2,7 @@
 title: "NodeJS"
 date: 2021-08-07T09:56:26+07:00
 draft: false
-tags: ["nodejs", "javascript", "catatan"]
+tags: ["nodejs", "javascript", "catatan", "nvm", "install"]
 categories: ["NodeJS"]
 ---
 
@@ -16,7 +16,7 @@ Postingan kali ini cuma untuk catatan saya aja kok.. Silahkan dibaca jika berken
 
 Iya dari kata JS yang berada setelah kata node saja kita sudah tau kalau NodeJS itu merupakan Javascript.
 
-JavaScript yang dari dulu kita tau hanya dapat dijalankan di browser saja, kan? Nah NodeJS ini merupakan sebuah _runtime_ yang dibangun untuk Chrome V8, yang memungkinkan kita untuk menjalankan JavaScript diluar browser. Wah keren kan?
+JavaScript yang dari dulu kita tau hanya dapat dijalankan di browser saja, kan? Nah, intinya NodeJS ini merupakan sebuah _runtime_ yang dibangun untuk Chrome V8, yang memungkinkan kita untuk **menjalankan JavaScript diluar browser**. Wah keren kan?
 
 ## Wah pasti mahal, kan? Soalnya itu keren banget.
 
@@ -67,3 +67,4 @@ Done! Selamat NodeJS telah terinstall. Hehe...
 
 
 Oke, untuk ini segitu dulu. Lanjut nanti, hehe...
+

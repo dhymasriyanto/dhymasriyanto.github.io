@@ -2,7 +2,7 @@
 title: "Mengeksekusi Nodejs"
 date: 2021-08-07T10:54:07+07:00
 draft: false
-tags: ["nodejs", "javascript"]
+tags: ["nodejs", "javascript", "REPL", "file", "execute"]
 categories: ["NodeJS"]
 ---
 
@@ -95,3 +95,4 @@ Done! Selamat udah bisa mengeksekusi file dengan menggunakan NodeJS!
 ...
 
 Oke untuk ini segini dulu... Lanjut lagi nanti, hehe...
+
