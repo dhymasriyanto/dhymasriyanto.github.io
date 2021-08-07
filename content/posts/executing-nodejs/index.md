@@ -12,7 +12,7 @@ Nah, setelah kita berhasil menginstall NodeJS berdasarkan postingan sebelumnya, 
 
 ## Node REPL
 
-*Apa itu REPL?*
+_Apa itu REPL?_
 
 REPL merupakan singkatan dari _Read, Evaluate, Print, Loop_.
 
@@ -68,7 +68,7 @@ Pasti, kalian akan mendapatkan _error_ seperti ini:
 
 {{< figure src="/img/executing-nodejs/alert.png" class="img-fluid" >}}
 
-**Lah Kok bisa?**
+_Lah Kok bisa?_
 
 Ini terjadi karena pada dasarnya meskipun NodeJS menggunakan JavaScript sebagai bahasa pemrogramannya, tidak semua fungsi yang bisa dilakukan di dalam browser ada di NodeJS. Hal ini karena REPL pada dasarnya tidak memiliki GUI untuk menampilkan modal _alert_ tersebut
 
@@ -78,7 +78,7 @@ Keren juga sih REPL, tapi kalo make itu, kalian mungkin ga bisa _build_ aplikasi
 
 Nah cara yang pada umumnya dilakukan ialah kita menulis program kita pada file, dan meminta NodeJS untuk mengeksekusi nya.
 
-*Bikin file index.js*
+_Bikin file index.js_
 
 Pertama, coba kalian bikin file `index.js`. Dalam file itu coba kalian ketik _syntax_ sederhana dari JavaScript. Semisal `console.log('Hallo Dunia')`.
 
