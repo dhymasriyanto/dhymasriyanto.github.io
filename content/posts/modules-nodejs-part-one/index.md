@@ -10,7 +10,7 @@ Karena tidak ada nya GUI, HTML, maupun CSS pada NodeJS, mengakibatkan tidak adan
 
 Nah, untuk itu lah kita memerlukan _modules_ untuk saling berbagi satu JS ke JS lainnya.
 
-# Apa itu _Module_?
+# <center> Apa itu _Module_? <center>
 
 _Module_ merupakan sebuah fungsi baik simpel maupun kompleks yang bisa dipakai ulang.
 
