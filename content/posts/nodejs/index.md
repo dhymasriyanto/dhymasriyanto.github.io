@@ -55,7 +55,7 @@ Uniknya, NVM menginstall NodeJS di dalam folder yang ga bakalan bikin _permissio
 
 Kalo udah install NVM, kalian tinggal download NodeJS yang LTS aja dengan _command_ ini :
 
-```
+```shell
 nvm install --lts
 ```
 
