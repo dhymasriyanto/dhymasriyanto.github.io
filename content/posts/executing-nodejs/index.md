@@ -49,7 +49,7 @@ Nah, apa yang kalian lakukan sudah persis seperti pada _console tools_ pada brow
 Sekarang coba ketik ini:
 
 ```javascript
-me;
+me
 ```
 
 Bahkan, sebelum kalian enter, REPL dapat menentukan nilai pada konstanta `me`.
