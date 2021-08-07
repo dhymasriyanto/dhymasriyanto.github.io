@@ -1,6 +1,6 @@
 ---
 title: "Hello, I'm Back :'v"
-date: 2021-05-20T05:14:57+07:00
+date: 2021-08-05T05:14:57+07:00
 draft: false
 tags: ["saya kembali", "back", "nulis lagi"]
 categories: ["Tulisan"]
