@@ -1,9 +1,9 @@
 ---
-title: "Global Nodejs"
+title: "Global NodeJS"
 date: 2021-08-07T12:11:46+07:00
 draft: false
 tags: ["nodejs", "javascript", "global", "object"]
-categories: ["nodejs"]
+categories: ["nodeJS"]
 ---
 
 # <center> Apa itu Global pada NodeJS? <center>
@@ -43,7 +43,7 @@ Berikut list umum yang diberikan oleh objek global pada NodeJS:
    Kemudian buka terminal pada lokasi anda menyimpan file `index.js` tersebut, dan ketikkan `node index.js`.
    Maka kalian akan mendapatkan _output_ seperti ini:
    {{< figure src="/img/global-nodejs/process.png" class="img-fluid" >}}
-5. `exports` `module` `require` : Berfungsi untuk membuat dan mengekspor _module_ melalui aplikasi kita.
+5. `exports`, `module`, dan `require` : Berfungsi untuk membuat dan mengekspor _module_ melalui aplikasi kita. (Cara _module_ lama).
 
 **Tidak umum (Namun perlu diketahui)**
 
