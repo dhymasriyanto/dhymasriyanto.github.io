@@ -1,7 +1,7 @@
 ---
 title: "Modules NodeJS - Common Module"
 date: 2021-08-07T14:32:50+07:00
-draft: true
+draft: false
 tags: ["nodejs", "javascript", "modules", "import", "export"]
 categories: ["NodeJS"]
 ---
@@ -107,8 +107,25 @@ const action = () =>{
     console.log('hello')
 }
 
-module.exports = {action}
+module.exports = { action }
 ```
+
+Nah, kita telah menjadikan fungsi `action` pada `index.js` sebagai objek.
+
+Selanjutnya, untuk file `app.js` ada sedikit perubahan yang harus kita lakukan.
+
+
+```javascript
+const action = require('.index')
+
+action.action()
+```
+
+Pada kode di atas, terlihat konstanta `action` telah berubah menjadi objek setelah menyimpan JS pada file `index.js`.
+
+Untuk itu, ketika ingin memanggil fungsi `action` pada file `index.js` kita tidak bisa langsung memanggil `action()`, melainkan harus dengan `action.action()`. 
+
+Hal ini dikarenakan kita telah menjadikan fungsi `action` pada file `index.js` sebagai objek, dan kita memanggil fungsi `action` file `index.js` di dalam objek `action` pada file `app.js` tersebut.
 
 ...
 
