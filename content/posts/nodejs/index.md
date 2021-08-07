@@ -45,7 +45,7 @@ Untuk install NodeJS versi Windows, kalian bisa kunjungi [website resmi NodeJS](
 
 ## Tambahan
 
-Kalo kalian ga make Windows atau kalian mau make WSL, disaranin make [NMV](https://github.com/nvm-sh/nvm), sih.
+Kalo kalian ga make Windows atau kalian mau make WSL, disaranin make [NVM](https://github.com/nvm-sh/nvm), sih.
 
 Kenapa?
 
