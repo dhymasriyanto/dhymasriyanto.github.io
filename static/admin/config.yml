@@ -13,8 +13,8 @@ public_folder: "/img"
 collections:
   - name: "posts"
     label: "Post"
-    media_folder: "static/img" # Folder where user uploaded files should go
-    public_folder: "/img"
+    media_folder: "static/img/{{slug}}" # Folder where user uploaded files should go
+    public_folder: "/img/{{slug}}"
     folder: "content/posts/"
     path: '{{slug}}/index'
     create: true
@@ -25,5 +25,5 @@ collections:
       - { name: category, label: category, widget: "select", options: ["Test", "JavaScript", "Devops", "Company"] }
       - { name: date, label: Date, widget: date }
       - { name: title, label: title }
-      - { name: "image", label: "Cover image", widget: "image"}
+      - { name: "image", label: "Cover image", widget: "image", choose_url: true, default: "/posts/{{slug}}/cover.png"}
       - { name: "body", label: "Blog post content", widget: "markdown"}
