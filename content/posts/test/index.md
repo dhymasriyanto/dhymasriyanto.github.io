@@ -1,16 +1,14 @@
 ---
-author: Dhyams
+author: Dhymas
 category: JavaScript
-date: 2021-08-09T06:45:06.976Z
+date: 2021-08-09T06:59:00.998Z
 title: Test
-image: /img/1.png
+image: /img/lumen.jpeg
 ---
-tsting
-
-test
+Test
 
 
 
 
 
-![](/img/lumen-2-.jpeg "testing")
+![](/img/discord-link.png)
