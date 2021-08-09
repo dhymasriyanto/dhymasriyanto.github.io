@@ -6,3 +6,7 @@ title: Test
 image: /img/1.png
 ---
 tsting
+
+
+
+![](/img/lumen-2-.jpeg)
