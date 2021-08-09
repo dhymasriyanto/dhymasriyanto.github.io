@@ -1,5 +1,6 @@
 ---
 title: "Global NodeJS"
+author: "dhymas"
 date: 2021-08-07T12:11:46+07:00
 draft: false
 tags: ["nodejs", "javascript", "global", "object"]

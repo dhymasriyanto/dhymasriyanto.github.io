@@ -1,5 +1,6 @@
 ---
 title: "Cara Menginstall JDK Dan Menampilkan Hello World"
+author: "dhymas"
 date: 2019-08-01T10:35:21+07:00
 draft: false
 tags: ["install JDK", "JAVA"]

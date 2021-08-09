@@ -13,11 +13,14 @@
                         <h1 class="text-center">{{ .Title }}</h1>
                         <hr>
                         {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
+                        {{ $author := index .Site.Data.authors (.Params.author | default "dhymas") }}
 
                         <p class="text-center"><span class="by">oleh</span>
-                           <a href="{{.Site.Author.homepage}}">
-                                {{.Site.Author.name}}
-                           </a>
+                            {{- if $author -}}
+                            <a href="{{$author.homepage}}">
+                                    {{ $author.name }}
+                            </a>
+                            {{- end -}}
                             <span
                                 class="date">{{ .Date.Format "2 Jan 2006" }} </span></p>
                         {{ end }}

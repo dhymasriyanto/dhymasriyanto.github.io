@@ -1,5 +1,6 @@
 ---
 title: "NodeJS"
+author: "dhymas"
 date: 2021-08-07T09:56:26+07:00
 draft: false
 tags: ["nodejs", "javascript", "catatan", "nvm", "install"]

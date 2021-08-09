@@ -1,5 +1,6 @@
 ---
 title: "Modules NodeJS - Common Module"
+author: "dhymas"
 date: 2021-08-07T14:32:50+07:00
 draft: false
 tags: ["nodejs", "javascript", "modules", "import", "export"]

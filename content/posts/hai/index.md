@@ -1,5 +1,6 @@
 ---
 title: "Hai!"
+author: "dhymas"
 date: 2019-08-01T05:44:09+07:00
 draft: false
 categories: ["Tulisan"]

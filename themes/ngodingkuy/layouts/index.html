@@ -57,19 +57,24 @@
         <h2 class="text-center">Author</h2>
         <hr>
       </div>
-      <div class="row justify-content-center features">
+      <div class="row people justify-content-center">
+        {{ $authors := .Site.Data.authors}}
+        {{range $authors}}
+
         <div class="col-md-6 col-lg-4 item">
-          <div class="box"><img class="rounded-circle"
-              src="/assets/img/dhymas.jpg">
-            <h3 class="name">{{.Site.Author.name}}</h3>
-            <p class="title">mahasiswa</p>
-            <p class="description">Hanya seorang mahasiswa yang suka <strike>mahasiswi</strike> <i>ngoding</i></p>
-            <div class="social"><a href="http://facebook.com/dhymas.riyanto.3"><i
-                  class="fa fa-facebook-official"></i></a><a href="https://github.com/dhymasriyanto"><i
-                  class="fa fa-github"></i></a><a href="http://instagram.com/dhymasriyanto"><i
+            <div class="box">
+            <img class="rounded-circle"
+              src="{{.image}}">
+            <h3 class="name">{{.name}}</h3>
+            <p class="title">{{.title}}</p>
+            <p class="description">{{.bio}}</i></p>
+            <div class="social"><a href="{{.social.fb}}"><i
+                  class="fa fa-facebook-official"></i></a><a href="{{.social.github}}"><i
+                  class="fa fa-github"></i></a><a href="{{.social.instagram}}"><i
                   class="fa fa-instagram"></i></a></div>
-          </div>
+            </div>
         </div>
+        {{end}}
       </div>
     </div>
   </div>

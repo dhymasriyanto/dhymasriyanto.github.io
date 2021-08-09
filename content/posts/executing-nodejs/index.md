@@ -1,5 +1,6 @@
 ---
 title: "Mengeksekusi NodeJS"
+author: "dhymas"
 date: 2021-08-07T10:54:07+07:00
 draft: false
 tags: ["nodejs", "javascript", "REPL", "file", "execute"]
