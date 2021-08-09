@@ -13,6 +13,7 @@
                         <h1 class="text-center">{{ .Title }}</h1>
                         <hr>
                         {{ $var := "Tentang" }} {{ if not (eq $var .Title) }}
+
                         <p class="text-center"><span class="by">oleh</span>
                            <a href="{{.Site.Author.homepage}}">
                                 {{.Site.Author.name}}
@@ -29,6 +30,7 @@
                         <!-- more -->
                         <br>
                         {{ if not (eq $var .Title) }}
+                        
                         <hr>
                         <center>
                             <p>Tag :</p>
@@ -41,10 +43,24 @@
                                 {{ end }}
                             </div>
                             <hr>
-                            <p>Artikel Terkait :</p>
-                            <div>
-                                {{partial "related.html"}}
-                            </div>
+                            
+                            {{ $related := .Site.RegularPages.RelatedIndices . | first 3 | shuffle}}
+                                {{if $related}}
+                                    <p>Artikel Terkait :</p>
+                                    <div>
+                                        {{ with $related }}
+                                            <ul style="list-style: none;list-style-position: inside; margin: 0; padding: 0;">
+                                                {{ range . }}
+                                                <li style="list-style-position: inside; margin: 0; padding: 0;">
+                                                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                                </li>
+                                                {{end}}
+                                            </ul>
+                                        {{ end }}
+                                    </div>
+                                {{else}}
+                                    <p>Belum ada artikel terkait. :')</p>
+                                {{end}}
                         </center>
                     </div>
                     <hr>
