@@ -2,7 +2,7 @@
 title: "Modules Nodejs - ECMAScript Module"
 author: "dhymas"
 date: 2021-08-13T16:00:44+07:00
-draft: false
+draft: true
 tags: ["nodejs", "javascript", "modules", "import", "export"]
 categories: ["NodeJS"]
 ---
