@@ -1,0 +1,18 @@
+<script>
+  window.store = {
+        // You can specify your blog section only:
+        {{ range where .Site.Pages "Section" "posts" }}
+        // For all pages in your site, use "range .Site.Pages"
+        // You can use any unique identifier here
+        "{{ .Permalink }}": {
+            // You can customize your searchable fields using any .Page parameters
+            "title": "{{ .Title  }}",
+            "tags": [{{ range .Params.Tags }}"{{ . }}",{{ end }}],
+            "content": {{ .Content | plainify }}, // Strip out HTML tags
+            "url": "{{ .Permalink }}"
+        },
+        {{ end }}
+    }
+</script>
+<script src="/assets/js/lunr.js"></script>
+<script src="/assets/js/search.js"></script>

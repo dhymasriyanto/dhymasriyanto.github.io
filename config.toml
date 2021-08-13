@@ -72,3 +72,6 @@ disqusShortname = "ngodingkuy"
     weight = 120
 
     
+[mediaTypes]
+[mediaTypes.'text/html']
+suffixes = ['js']
