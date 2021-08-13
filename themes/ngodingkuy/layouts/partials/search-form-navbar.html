@@ -1,13 +1,14 @@
 <form action="{{ with .Site.GetPage "/search" }}{{.Permalink}}{{end}}" method="GET" class="me-auto search-form" >
-    <div class="d-flex align-items-center">
-        <label class="form-label d-flex mb-0" for="search-field">
+    <div class="d-flex align-items-center justify-content-center">
+        <!-- <label class="form-label d-flex mb-0" for="search-field">
             <i class="fa fa-search"></i>
-        </label>
+        </label> -->
         <input
-            class="form-control search-field heading-navbar"
+            class="form-control search-field heading-navbar text-center"
             type="search"
             id="search-input"
             name="query"
+            autocomplete="off"
             placeholder="Cari disini!"
         />
     </div>

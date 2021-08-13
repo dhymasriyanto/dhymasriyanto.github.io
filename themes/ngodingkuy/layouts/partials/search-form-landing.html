@@ -1,10 +1,11 @@
 <form class="me-auto search-form" action="{{ with .Site.GetPage "/search" }}{{.Permalink}}{{end}}" method="GET">
-    <div class="d-flex align-items-center">
-        <label class="form-label d-flex mb-0" for="search-field">
+    <div class="d-flex align-items-center justify-content-center">
+        <!-- <label class="form-label d-flex mb-0" for="search-field">
             <i class="fa fa-search"></i>
-        </label>
+        </label> -->
         <input
-            class="form-control search-field landing-page"
+            class="form-control search-field landing-page text-center"
+            autocomplete="off"
             type="search"
             id="search-input"
             name="query"

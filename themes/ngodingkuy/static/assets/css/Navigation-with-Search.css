@@ -98,12 +98,15 @@
 .navigation-clean-search .search-form .search-field {
   background: none;
   border: none;
-  border-bottom: 1px solid transparent;
+  /* border-bottom: 1px solid transparent; */
   border-radius: 0;
   color: #ccc;
   box-shadow: none;
   color: inherit;
   transition: border-bottom-color 0.3s;
+  /* yang ini ganti jadi transparent */
+  border-bottom: 1px solid rgb(236, 235, 235);
+  margin-left: 20px;
 }
 
 @media (max-width: 767px) {
@@ -112,7 +115,7 @@
     width: 80%;
   }
 }
-
+/* disini ganti px */
 .navigation-clean-search .search-form .search-field:focus {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
