@@ -8,6 +8,7 @@
             // You can customize your searchable fields using any .Page parameters
             "title": "{{ .Title  }}",
             "tags": [{{ range .Params.Tags }}"{{ . }}",{{ end }}],
+            "categories": [{{ range .Params.Categories }}"{{ . }}",{{ end }}],
             "content": {{ .Content | plainify }}, // Strip out HTML tags
             "url": "{{ .Permalink }}"
         },
