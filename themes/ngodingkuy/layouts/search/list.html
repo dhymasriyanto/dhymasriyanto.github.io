@@ -1,14 +1,14 @@
-{{ define "main" }}
-{{ partial "header.html" . }}
-<br>
-<br>
-<br>
-<br>
-<br>
+{{ define "main" }} {{ partial "header.html" . }}
+<br />
+<br />
+<div class="features-boxed">
+ <br /><br />
+  <div class="row justify-content-center features">
 
-<ul id="results-of-search">
-    <li>
-        Enter a keyword above to search this site.
-    </li>
-</ul>
+    <ul id="results-of-search" style="list-style: none;list-style-position: inside; margin: 0; padding: 0;">
+      <li>Masukkan kata kunci anda di kolom pencarian di atas.</li>
+    </ul>
+  </div>
+</div>
+
 {{ end }}
