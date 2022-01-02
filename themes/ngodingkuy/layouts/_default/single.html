@@ -36,13 +36,13 @@
 			<div class="row text-center">
 				<div class="col-sm">
                         	{{ if .NextPage }}
-				<a href="{{ .NextPage.Permalink }}"> « {{ .NextPage.Title | truncate 50 "..."}}</a>
+				<a href="{{ .NextPage.RelPermalink }}"> « {{ .NextPage.Title | truncate 50 "..."}}</a>
 				{{ end }}
                         	</div>
 				<div class="col-sm">
 				{{ if .PrevPage }}	
 				{{ $var := "Tentang" }} {{ if not (eq $var .PrevPage.Title) }}
-				<a href="{{ .PrevPage.Permalink }}"> {{ .PrevPage.Title | truncate 50 "..." }} » </a>
+				<a href="{{ .PrevPage.RelPermalink }}"> {{ .PrevPage.Title | truncate 50 "..." }} » </a>
 					{{ end }}
 				{{ end }}
 				</div>
