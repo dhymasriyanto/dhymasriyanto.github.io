@@ -29,6 +29,7 @@ _Apa ni, `.js` aja pusing, nambah lagi `.mjs`!_
 
 Tenang, kalian masih tetap bisa menggunakan ekstensi `.js`, kok.
 
-Kalian bisa melakukan _setting_ di file `package.json` dengan menambahkan `"type": "module"` yang mana masih menbolehkan kalian menggunakan ekstensi `.js` .
+Kalian bisa melakukan _setting_ di file `package.json` dengan menambahkan `"type": "module"` yang mana masih membolehkan kalian menggunakan ekstensi `.js` .
 
 Namun hadirnya ekstensi `.mjs` merupakan cara mudah yang diberikan agar pengerjaan aplikasi yang menggunakan NodeJS tidak membingungkan diri kita dan lebih simpel.
+

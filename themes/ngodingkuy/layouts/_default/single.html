@@ -33,8 +33,21 @@
                         <!-- more -->
                         <br>
                         {{ if not (eq $var .Title) }}
-                        
-                        <hr>
+			<div class="row text-center">
+				<div class="col-sm">
+                        	{{ if .NextPage }}
+				<a href="{{ .NextPage.Permalink }}?ref=footer"> « {{ .NextPage.Title | truncate 50 "..."}}</a>
+				{{ end }}
+                        	</div>
+				<div class="col-sm">
+				{{ if .PrevPage }}	
+				{{ $var := "Tentang" }} {{ if not (eq $var .PrevPage.Title) }}
+				<a href="{{ .PrevPage.Permalink }}?ref=footer"> {{ .PrevPage.Title | truncate 50 "..." }} » </a>
+					{{ end }}
+				{{ end }}
+				</div>
+			</div>
+                       <hr>
                         <center>
                             <p>Tag :</p>
                             <div>

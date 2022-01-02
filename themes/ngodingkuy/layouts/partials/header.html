@@ -12,12 +12,13 @@
 
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
+                        <!-- {{printf "%#v" . }} -->
                         {{if not (eq .Identifier "categories")}}
                           <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active {{end}}">
                             <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
                           </li>
                         {{else}}
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active {{end}}">
                             <a class="nav-link dropdown-toggle" href="{{ .URL | relURL }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               {{ .Name }}
                             </a>
