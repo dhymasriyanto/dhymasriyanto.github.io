@@ -2,7 +2,7 @@
 title: "Modules Nodejs - ECMAScript Module"
 author: "dhymas"
 date: 2022-01-03T00:00:44+07:00
-draft: true
+draft: false
 tags: ["nodejs", "javascript", "modules", "import", "export"]
 categories: ["NodeJS"]
 ---
@@ -84,5 +84,29 @@ import {action} from './index.mjs'
 
 action()
 ```
+
+Gimana? Lebih ringkas bukan?
+
+Nah, coba kita jalankan contoh diatas.
+
+Ketikkan `node app.mjs` pada terminal kita, dan lihatlah _output_ yang dihasilkan.
+
+{{< figure src="/img/modules-nodejs-two/hello.jpg" class="img-fluid" >}}
+
+Selamat! Kita telah berhasil menggunakan _module_ pada NodeJS.
+
+Sekarang, bagaimana jika kita menerapkan kode di atas pada file yang memiliki ekstensi `.js`?
+
+Jika kita merubah ekstensi `.mjs` menjadi `.js`, maka ketika kita mencoba menjalankan `node app.js` maka akan mendapat _error_ sebagai berikut:
+
+{{< figure src="/img/modules-nodejs-two/error.jpg" class="img-fluid" >}}
+
+Kita akan mendapatkan _error_ bahwa kita tidak dapat menggunakan _import statement_ diluar _module_.
+
+Dari _error_ di atas dapat dilihat bahwasanya kita disarankan untuk menggunakan ekstensi `.mjs`, atau mengatur `"type": "module"` pada `package.json`.
+
+Dokumentasi lebih lanjut dapat dibaca di [sini](https://nodejs.org/api/esm.html) 
+
+Atau juga bisa baca [ini](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) dan [ini](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
 
