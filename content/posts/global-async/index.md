@@ -1,7 +1,7 @@
 ---
 title: "Global Async"
 author: "dhymas"
-date: 2022-01-03T20:01:06+07:00
+date: 2022-01-04T20:01:06+07:00
 draft: false
 tags: ["nodejs", "javascript", "modules", "async"]
 categories: ["NodeJS"]
