@@ -14,7 +14,7 @@
                         {{ range .Site.Menus.main }}
 			 <!--{{printf "%#v" . }} -->
                         {{if not (eq .Identifier "categories")}}
-                          <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }} active {{end}}">
+                          <li class="nav-item {{ if  ($currentPage.IsMenuCurrent "main" . )  }} active {{end}}">
                             <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
                           </li>
                         {{else}}
