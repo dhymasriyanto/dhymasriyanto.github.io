@@ -14,6 +14,8 @@ relativeURLs = true
 
 summaryLength = 5
 
+sectionPagesMenu = "main"
+
 [related]
     includeNewer = true
     threshold = 80
