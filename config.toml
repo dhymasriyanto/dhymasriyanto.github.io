@@ -63,7 +63,7 @@ disqusShortname = "ngodingkuy"
     identifier = "tentang"
     name = "Tentang"
     url = "/tentang/"
-    weight = 120
+    weight = 130
 
     [[menu.main]]
     identifier = "categories"
