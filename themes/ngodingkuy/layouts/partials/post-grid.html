@@ -33,8 +33,8 @@
         {{ end }}
 
         {{ if eq $var .Title }}
-        {{ range first $recentposts (where .Pages "Type" "posts" ) }}
         <div class="row justify-content-center features">
+        {{ range first $recentposts (where .Pages "Type" "posts" ) }}
 
             {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
