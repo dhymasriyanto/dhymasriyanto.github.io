@@ -52,31 +52,31 @@
 
   {{ partial "post-grid.html" .}}
 
-  <div class="team-boxed">
-    <div class="container">
-      <div class="intro">
-        <h2 class="text-center">Author</h2>
-        <hr>
-      </div>
-      <div class="row people justify-content-center">
-        {{ $authors := .Site.Data.authors}}
-        {{range $authors}}
+  <!--<div class="team-boxed">-->
+    <!--<div class="container">-->
+      <!--<div class="intro">-->
+        <!--<h2 class="text-center">Author</h2>-->
+        <!--<hr>-->
+      <!--</div>-->
+      <!--<div class="row people justify-content-center">-->
+        <!--{{ $authors := .Site.Data.authors}}-->
+        <!--{{range $authors}}-->
 
-        <div class="col-md-6 col-lg-4 item">
-            <div class="box">
-            <img class="rounded-circle"
-              src="{{.image}}">
-            <h3 class="name">{{.name}}</h3>
-            <p class="title">{{.title}}</p>
-            <p class="description">{{.bio}}</i></p>
-            <div class="social"><a href="{{.social.fb}}"><i
-                  class="fa fa-facebook-official"></i></a><a href="{{.social.github}}"><i
-                  class="fa fa-github"></i></a><a href="{{.social.instagram}}"><i
-                  class="fa fa-instagram"></i></a></div>
-            </div>
-        </div>
-        {{end}}
-      </div>
-    </div>
-  </div>
+        <!--<div class="col-md-6 col-lg-4 item">-->
+            <!--<div class="box">-->
+            <!--<img class="rounded-circle"-->
+              <!--src="{{.image}}">-->
+            <!--<h3 class="name">{{.name}}</h3>-->
+            <!--<p class="title">{{.title}}</p>-->
+            <!--<p class="description">{{.bio}}</i></p>-->
+            <!--<div class="social"><a href="{{.social.fb}}"><i-->
+                  <!--class="fa fa-facebook-official"></i></a><a href="{{.social.github}}"><i-->
+                  <!--class="fa fa-github"></i></a><a href="{{.social.instagram}}"><i-->
+                  <!--class="fa fa-instagram"></i></a></div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--{{end}}-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
   {{ end }}
