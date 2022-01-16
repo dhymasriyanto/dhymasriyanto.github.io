@@ -52,8 +52,23 @@ console.info(os.hostname())
 Sekarang kalian bisa coba untuk menjalankannya dengan menggunakan perintah `node os.mjs`.
 Maka contoh _output_ yang terlihat pada laptop _author_ sebagai berikut:
 
-
 {{< figure src="/img/os/output.jpg" class="img-fluid" >}}
 
+Pada gambar di atas terlihat bahwa platform yang _author_ gunakan ialah linux.
+Kemudian arsitektur yang berjalan di sistem operasi _author_ adalah x64.
+Lalu total _free memory_ yang ada ialah sebesar kurang lebih 7GB yang tertulis dalam bentuk Byte.  
+Dan juga ada total _memory_ sebesar kurang lebih 12GB dalam bentuk Byte.
+Kemudian juga terdapat _path_ directory _home_, dan juga _hostname_ tersebut.
+
+Kita juga bisa melihat detail cpu, dengan menggunakan `console.table()` agar lebih nyaman dilihat.
+
+```javascript
+console.table(os.cpus())
+```
+
+Maka output yang akan terlihat sebagai berikut:
+
+
+{{< figure src="/img/os/tables.jpg" class="img-fluid" >}}
 
 Oke, mungkin kalian bisa melakukan hal lebih pada library ini. Silahkan lakukan eksplorasi lebih dalam pada dokumentasi-nya untuk penggunaan lebih lanjut.
