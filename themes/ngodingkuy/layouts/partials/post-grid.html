@@ -6,15 +6,14 @@
         {{ if eq $var .Title }}
         <h2 class="text-center">Posting Terkini</h2>
         <hr>
-<br><br>        
+<br><br>
         {{else if eq $var2 .Title}}
         <h2 class="text-center">Semua Kategori</h2>
         <hr>
-        
+
         {{else if eq $var3 .Title}}
         <h2 class="text-center">Semua Posting</h2>
         <hr>
-       
         {{else if eq $v .Section}}
         <h2 class="text-center">Kategori : {{.Title}}</h2>
         <hr>
@@ -23,8 +22,6 @@
         <hr>
         {{end}}
     </div>
-
-    <!-- {{partial "test.html" . }} -->
 
     <div class="container">
         {{ $recentposts := 2 }}
