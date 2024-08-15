@@ -35,14 +35,14 @@
                         {{ if not (eq $var .Title) }}
 			<div class="row text-center">
 				<div class="col-sm">
-                        	{{ if .NextPage }}
-				<a href="{{ .NextPage.RelPermalink }}"> « {{ .NextPage.Title | truncate 50 "..."}}</a>
+                        	{{ if .Next }}
+				<a href="{{ .Next.RelPermalink }}"> « {{ .Next.Title | truncate 50 "..."}}</a>
 				{{ end }}
                         	</div>
 				<div class="col-sm">
-				{{ if .PrevPage }}	
-				{{ $var := "Tentang" }} {{ if not (eq $var .PrevPage.Title) }}
-				<a href="{{ .PrevPage.RelPermalink }}"> {{ .PrevPage.Title | truncate 50 "..." }} » </a>
+				{{ if .Prev }}	
+				{{ $var := "Tentang" }} {{ if not (eq $var .Prev.Title) }}
+				<a href="{{ .Prev.RelPermalink }}"> {{ .Prev.Title | truncate 50 "..." }} » </a>
 					{{ end }}
 				{{ end }}
 				</div>

@@ -3,11 +3,6 @@
 <meta name="description" content="{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
-{{ template "_internal/schema.html" . }}
-{{ template "_internal/google_news.html" . }}
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
-
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
@@ -33,15 +28,3 @@
 <link rel="stylesheet" href="/assets/css/prism.css" />
 
 <link rel="icon" href="/assets/img/icon.png" />
-
-<!-- Taru kode Google Analytic di sini, karena menurut aturan harus di dalam Head -->
-{{ template "_internal/google_analytics.html" . }}
-{{ template "_internal/google_analytics_async.html" . }}
-<script data-ad-client="ca-pub-2698131873730251" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-<!-- <script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-2698131873730251",
-    enable_page_level_ads: true
-  }); -->
-</script>

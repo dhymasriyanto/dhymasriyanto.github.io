@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ngoding Kuy!</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Ngoding Kuy!</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 17 Jan 2022 17:13:29 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File</title>
+      <link>http://localhost:1313/tags/file/</link>
+      <pubDate>Mon, 17 Jan 2022 17:13:29 +0700</pubDate>
+      <guid>http://localhost:1313/tags/file/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Mon, 17 Jan 2022 17:13:29 +0700</pubDate>
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodejs</title>
+      <link>http://localhost:1313/tags/nodejs/</link>
+      <pubDate>Mon, 17 Jan 2022 17:13:29 +0700</pubDate>
+      <guid>http://localhost:1313/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System</title>
+      <link>http://localhost:1313/tags/system/</link>
+      <pubDate>Mon, 17 Jan 2022 17:13:29 +0700</pubDate>
+      <guid>http://localhost:1313/tags/system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Library</title>
+      <link>http://localhost:1313/tags/library/</link>
+      <pubDate>Sun, 16 Jan 2022 17:53:30 +0700</pubDate>
+      <guid>http://localhost:1313/tags/library/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Path</title>
+      <link>http://localhost:1313/tags/path/</link>
+      <pubDate>Sun, 16 Jan 2022 17:53:30 +0700</pubDate>
+      <guid>http://localhost:1313/tags/path/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Async</title>
+      <link>http://localhost:1313/tags/async/</link>
+      <pubDate>Tue, 04 Jan 2022 20:01:06 +0700</pubDate>
+      <guid>http://localhost:1313/tags/async/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modules</title>
+      <link>http://localhost:1313/tags/modules/</link>
+      <pubDate>Tue, 04 Jan 2022 20:01:06 +0700</pubDate>
+      <guid>http://localhost:1313/tags/modules/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Export</title>
+      <link>http://localhost:1313/tags/export/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:44 +0700</pubDate>
+      <guid>http://localhost:1313/tags/export/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Import</title>
+      <link>http://localhost:1313/tags/import/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:44 +0700</pubDate>
+      <guid>http://localhost:1313/tags/import/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Back</title>
+      <link>http://localhost:1313/tags/back/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/back/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nulis Lagi</title>
+      <link>http://localhost:1313/tags/nulis-lagi/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/nulis-lagi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Saya Kembali</title>
+      <link>http://localhost:1313/tags/saya-kembali/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/saya-kembali/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Global</title>
+      <link>http://localhost:1313/tags/global/</link>
+      <pubDate>Sat, 07 Aug 2021 12:11:46 +0700</pubDate>
+      <guid>http://localhost:1313/tags/global/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Object</title>
+      <link>http://localhost:1313/tags/object/</link>
+      <pubDate>Sat, 07 Aug 2021 12:11:46 +0700</pubDate>
+      <guid>http://localhost:1313/tags/object/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Execute</title>
+      <link>http://localhost:1313/tags/execute/</link>
+      <pubDate>Sat, 07 Aug 2021 10:54:07 +0700</pubDate>
+      <guid>http://localhost:1313/tags/execute/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>REPL</title>
+      <link>http://localhost:1313/tags/repl/</link>
+      <pubDate>Sat, 07 Aug 2021 10:54:07 +0700</pubDate>
+      <guid>http://localhost:1313/tags/repl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catatan</title>
+      <link>http://localhost:1313/tags/catatan/</link>
+      <pubDate>Sat, 07 Aug 2021 09:56:26 +0700</pubDate>
+      <guid>http://localhost:1313/tags/catatan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Install</title>
+      <link>http://localhost:1313/tags/install/</link>
+      <pubDate>Sat, 07 Aug 2021 09:56:26 +0700</pubDate>
+      <guid>http://localhost:1313/tags/install/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nvm</title>
+      <link>http://localhost:1313/tags/nvm/</link>
+      <pubDate>Sat, 07 Aug 2021 09:56:26 +0700</pubDate>
+      <guid>http://localhost:1313/tags/nvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Install JDK</title>
+      <link>http://localhost:1313/tags/install-jdk/</link>
+      <pubDate>Thu, 01 Aug 2019 10:35:21 +0700</pubDate>
+      <guid>http://localhost:1313/tags/install-jdk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JAVA</title>
+      <link>http://localhost:1313/tags/java/</link>
+      <pubDate>Thu, 01 Aug 2019 10:35:21 +0700</pubDate>
+      <guid>http://localhost:1313/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Assalamualaikum</title>
+      <link>http://localhost:1313/tags/assalamualaikum/</link>
+      <pubDate>Thu, 01 Aug 2019 05:44:09 +0700</pubDate>
+      <guid>http://localhost:1313/tags/assalamualaikum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hai</title>
+      <link>http://localhost:1313/tags/hai/</link>
+      <pubDate>Thu, 01 Aug 2019 05:44:09 +0700</pubDate>
+      <guid>http://localhost:1313/tags/hai/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

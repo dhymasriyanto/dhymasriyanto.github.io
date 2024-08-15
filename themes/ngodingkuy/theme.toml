@@ -5,14 +5,14 @@ name = "Ngodingkuy"
 license = "MIT"
 licenselink = ""
 description = "Jalan Termudah untuk Memecahkan Masalah"
-homepage = "https://ngodingkuy.tech/"
+homepage = "https://ngodingkuy.netlify.app/"
 tags = ["blog", "programming"]
 features = ["materialize"]
 min_version = "0.1"
 
 [author]
   name = "Dhymas Julyan Riyanto"
-  homepage = "https://ngodingkuy.tech/"
+  homepage = "https://ngodingkuy.neltify.app/"
 
 # If porting an existing theme
 [original]

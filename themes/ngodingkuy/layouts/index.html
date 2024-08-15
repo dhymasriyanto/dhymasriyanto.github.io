@@ -26,7 +26,7 @@
                 <a class="dropdown-item border-bottom" href="{{ .URL | relURL }}">Semua</a>
                 {{ range $name, $taxonomy := $currentPage.Site.Taxonomies.categories }}
                 {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
-                <a class="dropdown-item" href="{{ .URL | relURL }}">{{ $name | humanize }}</a>
+                <a class="dropdown-item" href="{{ .Permalink | relURL }}">{{ $name | humanize }}</a>
                 {{ end }}
                 {{ end }}
               </div>

@@ -6,13 +6,14 @@ languageCode = "id"
 
 MetaDataFormat = "yaml"
 
-googleAnalytics = "UA-144994408-1" 
+googleAnalytics = "UA-144994408-1"
 
 theme = "ngodingkuy"
 
 relativeURLs = true
 
 summaryLength = 5
+
 [related]
     includeNewer = true
     threshold = 80
@@ -39,11 +40,11 @@ summaryLength = 5
 
 disqusShortname = "ngodingkuy"
 
-[author]
-    name = "Dhymas Julyan Riyanto"
-    homepage = "https://github.com/dhymasriyanto"
-    bio = "My Mother always tells me to smile and put on happy face"
-    image = "https://avatars0.githubusercontent.com/u/32106219?s=460&v=4"
+# [author]
+#     name = "Dhymas Julyan Riyanto"
+#     homepage = "https://github.com/dhymasriyanto"
+#     bio = "My Mother always tells me to smile and put on happy face"
+#     image = "https://avatars0.githubusercontent.com/u/32106219?s=460&v=4"
 
 [menu]
     [[menu.main]]
@@ -70,7 +71,7 @@ disqusShortname = "ngodingkuy"
     url = "/categories/"
     weight = 120
 
-    
 [mediaTypes]
 [mediaTypes.'text/html']
+
 suffixes = ['js']

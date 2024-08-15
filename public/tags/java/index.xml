@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAVA on Ngoding Kuy!</title>
+    <link>http://localhost:1313/tags/java/</link>
+    <description>Recent content in JAVA on Ngoding Kuy!</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 01 Aug 2019 10:35:21 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Menginstall JDK Dan Menampilkan Hello World</title>
+      <link>http://localhost:1313/posts/cara-menginstall-jdk-dan-menampilkan-hello-world/</link>
+      <pubDate>Thu, 01 Aug 2019 10:35:21 +0700</pubDate>
+      <guid>http://localhost:1313/posts/cara-menginstall-jdk-dan-menampilkan-hello-world/</guid>
+      <description>JDK atau JAVA Development Kit adalah salah satu dari tiga paket inti yang dibutuhkan pada bahasa JAVA.</description>
+    </item>
+  </channel>
+</rss>

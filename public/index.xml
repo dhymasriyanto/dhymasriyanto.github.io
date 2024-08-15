@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ngoding Kuy!</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ngoding Kuy!</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <lastBuildDate>Mon, 17 Jan 2022 17:13:29 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Standard Library - File System</title>
+      <link>http://localhost:1313/posts/file-system/</link>
+      <pubDate>Mon, 17 Jan 2022 17:13:29 +0700</pubDate>
+      <guid>http://localhost:1313/posts/file-system/</guid>
+      <description>File system merupakan standard library yang bisa digunakan untuk memanipulasi file system.</description>
+    </item>
+    <item>
+      <title>Standard Library - Path</title>
+      <link>http://localhost:1313/posts/path/</link>
+      <pubDate>Sun, 16 Jan 2022 17:53:30 +0700</pubDate>
+      <guid>http://localhost:1313/posts/path/</guid>
+      <description>Setelah OS, ada lagi standard library yang dapat kita gunakan untuk keperluan kita.</description>
+    </item>
+    <item>
+      <title>Standard Library - OS</title>
+      <link>http://localhost:1313/posts/os/</link>
+      <pubDate>Sun, 16 Jan 2022 15:31:27 +0700</pubDate>
+      <guid>http://localhost:1313/posts/os/</guid>
+      <description>Apa itu Standard Library?&#xA;Seperti namanya, standard library merupakan library yang secara default disediakan oleh nodejs.</description>
+    </item>
+    <item>
+      <title>Global Async</title>
+      <link>http://localhost:1313/posts/global-async/</link>
+      <pubDate>Tue, 04 Jan 2022 20:01:06 +0700</pubDate>
+      <guid>http://localhost:1313/posts/global-async/</guid>
+      <description>Pada JavaSript biasanya kita menggunakan async await kita perlu membuat function yang ditandai sebagai async.</description>
+    </item>
+    <item>
+      <title>Modules Nodejs - ECMAScript Module</title>
+      <link>http://localhost:1313/posts/modules-nodejs-part-two/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:44 +0700</pubDate>
+      <guid>http://localhost:1313/posts/modules-nodejs-part-two/</guid>
+      <description>Untuk penggunaan module pada postingan sebelumnya, sebenarnya tidak disarankan, karena merupakan default syntax untuk NodeJS yang sudah jarang dipakai dan termasuk cara dasar.</description>
+    </item>
+    <item>
+      <title>Hello, I&#39;m Back :&#39;v</title>
+      <link>http://localhost:1313/posts/i-am-back/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/i-am-back/</guid>
+      <description>&amp;lt;?php echo &amp;#34;Assalamualaikum!&amp;#34;; ?&amp;gt; Hai, teman teman&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Modules NodeJS - Common Module</title>
+      <link>http://localhost:1313/posts/modules-nodejs-part-one/</link>
+      <pubDate>Sat, 07 Aug 2021 14:32:50 +0700</pubDate>
+      <guid>http://localhost:1313/posts/modules-nodejs-part-one/</guid>
+      <description>Karena tidak ada nya GUI, HTML, maupun CSS pada NodeJS, mengakibatkan tidak adanya script tag (&amp;lt;script&amp;gt;&amp;lt;script&amp;gt;) untuk memasukkan file JavaScript kita pada aplikasi kita.</description>
+    </item>
+    <item>
+      <title>Global NodeJS</title>
+      <link>http://localhost:1313/posts/global-nodejs/</link>
+      <pubDate>Sat, 07 Aug 2021 12:11:46 +0700</pubDate>
+      <guid>http://localhost:1313/posts/global-nodejs/</guid>
+      <description>Apa itu Global pada NodeJS?</description>
+    </item>
+    <item>
+      <title>Mengeksekusi NodeJS</title>
+      <link>http://localhost:1313/posts/executing-nodejs/</link>
+      <pubDate>Sat, 07 Aug 2021 10:54:07 +0700</pubDate>
+      <guid>http://localhost:1313/posts/executing-nodejs/</guid>
+      <description>Bagaimana cara mengeksekusi NodeJS? Nah, setelah kita berhasil menginstall NodeJS berdasarkan postingan sebelumnya, kali ini kita akan mencoba mengeksekusi NodeJS, agar dapat digunakan.</description>
+    </item>
+    <item>
+      <title>NodeJS</title>
+      <link>http://localhost:1313/posts/nodejs/</link>
+      <pubDate>Sat, 07 Aug 2021 09:56:26 +0700</pubDate>
+      <guid>http://localhost:1313/posts/nodejs/</guid>
+      <description>Halo semua, kembali lagi bersama Author :&#39;)</description>
+    </item>
+    <item>
+      <title>Cara Menginstall JDK Dan Menampilkan Hello World</title>
+      <link>http://localhost:1313/posts/cara-menginstall-jdk-dan-menampilkan-hello-world/</link>
+      <pubDate>Thu, 01 Aug 2019 10:35:21 +0700</pubDate>
+      <guid>http://localhost:1313/posts/cara-menginstall-jdk-dan-menampilkan-hello-world/</guid>
+      <description>JDK atau JAVA Development Kit adalah salah satu dari tiga paket inti yang dibutuhkan pada bahasa JAVA.</description>
+    </item>
+    <item>
+      <title>Hai!</title>
+      <link>http://localhost:1313/posts/hai/</link>
+      <pubDate>Thu, 01 Aug 2019 05:44:09 +0700</pubDate>
+      <guid>http://localhost:1313/posts/hai/</guid>
+      <description>&amp;lt;?php echo &amp;#34;Assalamualaikum!&amp;#34;; ?&amp;gt; Selamat datang di blog Ngoding Kuy!</description>
+    </item>
+    <item>
+      <title>Tentang</title>
+      <link>http://localhost:1313/tentang/</link>
+      <pubDate>Tue, 30 Jul 2019 23:10:26 +0700</pubDate>
+      <guid>http://localhost:1313/tentang/</guid>
+      <description>Apa itu Ngoding Kuy! ?</description>
+    </item>
+  </channel>
+</rss>
