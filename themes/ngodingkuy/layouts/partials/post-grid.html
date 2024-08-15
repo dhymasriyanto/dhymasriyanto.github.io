@@ -24,14 +24,9 @@
     </div>
 
     <div class="container">
-        {{ $recentposts := 2 }}
-        {{ if .Params.recentposts }}
-        {{ $recentposts = .Params.recentposts }}
-        {{ end }}
-
         {{ if eq $var .Title }}
         <div class="row justify-content-center features">
-        {{ range first $recentposts (where .Pages "Type" "posts" ) }}
+            {{ range (where .Site.RegularPages "Type" "posts" )  | first 3}}
 
             {{ $images := .Resources.ByType "image" }} {{ $image := index $images 0 }}
             {{ $image := $image.Fill "512x360 smart" }}
